@@ -4,12 +4,19 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/mcc_generated_files/tmr0.c</file>
-            <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/mcc_generated_files/mcc.h</file>
-            <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/parse.c</file>
-            <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/ad9833.c</file>
+            <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/mcc_generated_files/tmr1.c</file>
+            <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/mcc_generated_files/spi1.c</file>
+            <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/mcc_generated_files/pin_manager.c</file>
+            <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/mcc_generated_files/tmr3.c</file>
             <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/mcc_generated_files/mcc.c</file>
             <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/main.c</file>
+            <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/mcc_generated_files/eusart.c</file>
+            <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/mcc_generated_files/mcc.h</file>
+            <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/parse.c</file>
+            <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/mcc_generated_files/interrupt_manager.h</file>
+            <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/mcc_generated_files/ext_int.h</file>
             <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/mcc_generated_files/ext_int.c</file>
+            <file>file:/L:/Labs/SO/PHCHBS-I21340/Personal/Lernende/Elektronik/Daniel_Bachmann/IPA/Software/GitHub/Experimental_Droplet_Generator/Droplet_Generator.X/mcc_generated_files/interrupt_manager.c</file>
         </group>
     </open-files>
 </project-private>
