@@ -7,9 +7,9 @@
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "mcc_generated_files/pin_manager.c" 2
-# 49 "mcc_generated_files/pin_manager.c"
+# 20 "mcc_generated_files/pin_manager.c"
 # 1 "mcc_generated_files/pin_manager.h" 1
-# 46 "mcc_generated_files/pin_manager.h"
+# 27 "mcc_generated_files/pin_manager.h"
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\xc.h" 1 3
 # 18 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -15264,10 +15264,10 @@ extern __attribute__((nonreentrant)) void _delaywdt(unsigned long);
 #pragma intrinsic(_delay3)
 extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 # 32 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\xc.h" 2 3
-# 46 "mcc_generated_files/pin_manager.h" 2
-# 214 "mcc_generated_files/pin_manager.h"
+# 27 "mcc_generated_files/pin_manager.h" 2
+# 195 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 49 "mcc_generated_files/pin_manager.c" 2
+# 20 "mcc_generated_files/pin_manager.c" 2
 
 
 
@@ -15326,7 +15326,7 @@ void PIN_MANAGER_Initialize(void)
     INLVLB = 0xFF;
     INLVLC = 0xFF;
     INLVLE = 0x08;
-# 115 "mcc_generated_files/pin_manager.c"
+# 86 "mcc_generated_files/pin_manager.c"
     RXPPS = 0x09;
     SSP1CLKPPS = 0x11;
     INT0PPS = 0x04;

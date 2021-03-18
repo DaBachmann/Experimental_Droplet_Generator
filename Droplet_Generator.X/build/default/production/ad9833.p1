@@ -1,13 +1,13 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"153 ./mcc_generated_files/spi1.h
-[; ;./mcc_generated_files/spi1.h: 153: void SPI1_WriteWord(uint16_t word);
+"156 ./mcc_generated_files/spi1.h
+[; ;./mcc_generated_files/spi1.h: 156: void SPI1_WriteWord(uint16_t word);
 [v _SPI1_WriteWord `(v ~T0 @X0 0 ef1`us ]
 [v F9005 `(v ~T0 @X0 1 tf1`ul ]
 "183 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18.h
 [v __delay `JF9005 ~T0 @X0 0 e ]
 [p i __delay ]
-"62 ./mcc_generated_files/../ad9833.h
-[; ;./mcc_generated_files/../ad9833.h: 62: void AD9833_SetFrequency(long frequency);
+"65 ./mcc_generated_files/../ad9833.h
+[; ;./mcc_generated_files/../ad9833.h: 65: void AD9833_SetFrequency(long frequency);
 [v _AD9833_SetFrequency `(v ~T0 @X0 0 ef1`l ]
 [v F9852 `(f ~T0 @X0 1 tf2`f`f ]
 "499 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\c99\math.h
@@ -1231,74 +1231,74 @@ Version 4.0 HI-TECH Software Intermediate Code
 "25228
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h: 25228: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-"23 ad9833.c
-[; ;ad9833.c: 23: void AD9833_Init(void)
+"26 ad9833.c
+[; ;ad9833.c: 26: void AD9833_Init(void)
 [v _AD9833_Init `(v ~T0 @X0 1 ef ]
-"24
-[; ;ad9833.c: 24: {
+"27
+[; ;ad9833.c: 27: {
 {
 [e :U _AD9833_Init ]
 [f ]
-"26
-[; ;ad9833.c: 26:     SPI1_WriteWord(0x0100);
+"29
+[; ;ad9833.c: 29:     SPI1_WriteWord(0x0100);
 [e ( _SPI1_WriteWord (1 -> -> 256 `i `us ]
-"27
-[; ;ad9833.c: 27:     _delay((unsigned long)((50)*(64000000/4000.0)));
-[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 64000000 `l `d .4000.0 `ul ]
 "30
-[; ;ad9833.c: 30:     AD9833_SetFrequency(3000000);
+[; ;ad9833.c: 30:     _delay((unsigned long)((50)*(64000000/4000.0)));
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 64000000 `l `d .4000.0 `ul ]
+"33
+[; ;ad9833.c: 33:     AD9833_SetFrequency(3000000);
 [e ( _AD9833_SetFrequency (1 -> 3000000 `l ]
-"32
-[; ;ad9833.c: 32: }
+"35
+[; ;ad9833.c: 35: }
 [e :UE 1320 ]
 }
-"37
-[; ;ad9833.c: 37: void AD9833_SetFrequency(long frequency)
+"40
+[; ;ad9833.c: 40: void AD9833_SetFrequency(long frequency)
 [v _AD9833_SetFrequency `(v ~T0 @X0 1 ef1`l ]
-"38
-[; ;ad9833.c: 38: {
+"41
+[; ;ad9833.c: 41: {
 {
 [e :U _AD9833_SetFrequency ]
-"37
-[; ;ad9833.c: 37: void AD9833_SetFrequency(long frequency)
-[v _frequency `l ~T0 @X0 1 r1 ]
-"38
-[; ;ad9833.c: 38: {
-[f ]
 "40
-[; ;ad9833.c: 40:     long freq = (frequency * powf(2,28)) / 25000000;
+[; ;ad9833.c: 40: void AD9833_SetFrequency(long frequency)
+[v _frequency `l ~T0 @X0 1 r1 ]
+"41
+[; ;ad9833.c: 41: {
+[f ]
+"43
+[; ;ad9833.c: 43:     long freq = (frequency * powf(2,28)) / 25000000;
 [v _freq `l ~T0 @X0 1 a ]
 [e = _freq -> / * -> _frequency `f ( _powf (2 , -> -> 2 `i `f -> -> 28 `i `f -> -> 25000000 `l `f `l ]
-"43
-[; ;ad9833.c: 43:     int MSB = (int)((freq & 0xFFFC000) >> 14);
+"46
+[; ;ad9833.c: 46:     int MSB = (int)((freq & 0xFFFC000) >> 14);
 [v _MSB `i ~T0 @X0 1 a ]
 [e = _MSB -> >> & _freq -> 268419072 `l -> 14 `i `i ]
-"45
-[; ;ad9833.c: 45:     int LSB = (int)(freq & 0x3FFF);
+"48
+[; ;ad9833.c: 48:     int LSB = (int)(freq & 0x3FFF);
 [v _LSB `i ~T0 @X0 1 a ]
 [e = _LSB -> & _freq -> -> 16383 `i `l `i ]
-"48
-[; ;ad9833.c: 48:     LSB |= 0x4000;
+"51
+[; ;ad9833.c: 51:     LSB |= 0x4000;
 [e =| _LSB -> 16384 `i ]
-"49
-[; ;ad9833.c: 49:     MSB |= 0x4000;
-[e =| _MSB -> 16384 `i ]
 "52
-[; ;ad9833.c: 52:     SPI1_WriteWord(0x2100);
-[e ( _SPI1_WriteWord (1 -> -> 8448 `i `us ]
+[; ;ad9833.c: 52:     MSB |= 0x4000;
+[e =| _MSB -> 16384 `i ]
 "55
-[; ;ad9833.c: 55:     SPI1_WriteWord(LSB);
+[; ;ad9833.c: 55:     SPI1_WriteWord(0x2100);
+[e ( _SPI1_WriteWord (1 -> -> 8448 `i `us ]
+"58
+[; ;ad9833.c: 58:     SPI1_WriteWord(LSB);
 [e ( _SPI1_WriteWord (1 -> _LSB `us ]
-"57
-[; ;ad9833.c: 57:     SPI1_WriteWord(MSB);
+"60
+[; ;ad9833.c: 60:     SPI1_WriteWord(MSB);
 [e ( _SPI1_WriteWord (1 -> _MSB `us ]
-"59
-[; ;ad9833.c: 59:     SPI1_WriteWord(0xC000);
-[e ( _SPI1_WriteWord (1 -> -> 49152 `ui `us ]
 "62
-[; ;ad9833.c: 62:     SPI1_WriteWord(0x2028);
+[; ;ad9833.c: 62:     SPI1_WriteWord(0xC000);
+[e ( _SPI1_WriteWord (1 -> -> 49152 `ui `us ]
+"65
+[; ;ad9833.c: 65:     SPI1_WriteWord(0x2028);
 [e ( _SPI1_WriteWord (1 -> -> 8232 `i `us ]
-"64
-[; ;ad9833.c: 64: }
+"67
+[; ;ad9833.c: 67: }
 [e :UE 1321 ]
 }

@@ -3,9 +3,9 @@
 [d edition pro ]
 [d chip 18F25K40 ]
 [d frameptr 4065 ]
-"23 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\ad9833.c
+"26 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\ad9833.c
 [v _AD9833_Init AD9833_Init `(v  1 e 1 0 ]
-"37
+"40
 [v _AD9833_SetFrequency AD9833_SetFrequency `(v  1 e 1 0 ]
 "1 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\abs.c
 [v _abs abs `(i  1 e 2 0 ]
@@ -93,100 +93,102 @@
 [v ___omul __omul `(uo  1 e 8 0 ]
 "10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
 [v ___xxtofl __xxtofl `(d  1 e 4 0 ]
-"63 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\main.c
+"66 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\main.c
 [v _main main `(v  1 e 1 0 ]
-"71 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/eusart.c
+"74 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/eusart.c
 [v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
-"116
+"119
 [v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
-"142
+"145
 [v _EUSART_Write_String EUSART_Write_String `(v  1 e 1 0 ]
-"156
+"159
 [v _EUSART_Transmit_ISR EUSART_Transmit_ISR `(v  1 e 1 0 ]
-"178
+"181
 [v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
-"214
+"217
 [v _EUSART_RxDataHandler EUSART_RxDataHandler `(v  1 e 1 0 ]
-"227
+"230
 [v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
-"229
+"232
 [v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
-"237
+"240
 [v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
-"241
+"244
 [v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
-"245
+"248
 [v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
-"249
+"252
 [v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
-"253
+"256
 [v _EUSART_SetTxInterruptHandler EUSART_SetTxInterruptHandler `(v  1 e 1 0 ]
-"257
+"260
 [v _EUSART_SetRxInterruptHandler EUSART_SetRxInterruptHandler `(v  1 e 1 0 ]
-"37 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/ext_int.c
+"41 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/ext_int.c
 [v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
-"59
-[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
-"34 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/interrupt_manager.c
+"37 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
-"61
+"64
 [v _INTERRUPT_InterruptManagerHigh INTERRUPT_InterruptManagerHigh `IIH(v  1 e 1 0 ]
-"108
+"111
 [v _INTERRUPT_InterruptManagerLow INTERRUPT_InterruptManagerLow `IIL(v  1 e 1 0 ]
-"23 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/mcc.c
+"26 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-"37
+"40
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
-"51
+"54
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
-"55 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/pin_manager.c
+"26 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"35 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/spi1.c
+"38 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/spi1.c
 [v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
-"53
+"56
 [v _SPI1_Start SPI1_Start `(v  1 e 1 0 ]
 [v i2_SPI1_Start SPI1_Start `(v  1 e 1 0 ]
-"63
+"66
 [v _SPI1_Close SPI1_Close `(v  1 e 1 0 ]
-"84
+[v i1_SPI1_Close SPI1_Close `(v  1 e 1 0 ]
+"87
 [v _SPI1_WriteWord SPI1_WriteWord `(v  1 e 1 0 ]
-"41 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr0.c
+"44 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
-"67
+"70
 [v _TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+[v i1_TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
 [v i2_TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
-"79
+"82
 [v _TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
-"86
+"89
 [v _TMR0_WriteTimer TMR0_WriteTimer `(v  1 e 1 0 ]
+[v i1_TMR0_WriteTimer TMR0_WriteTimer `(v  1 e 1 0 ]
 [v i2_TMR0_WriteTimer TMR0_WriteTimer `(v  1 e 1 0 ]
-"93
+"96
 [v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+[v i1_TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
 [v i2_TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
-"40 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr1.c
+"43 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
-"73
+"76
 [v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
-"79
+"82
 [v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
 [v i1_TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
-"85
+"88
 [v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
-"107
+"110
 [v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
-"39 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr3.c
+"42 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr3.c
 [v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
-"71
+"74
 [v _TMR3_StartTimer TMR3_StartTimer `(v  1 e 1 0 ]
 [v i2_TMR3_StartTimer TMR3_StartTimer `(v  1 e 1 0 ]
-"78
+"81
 [v _TMR3_StopTimer TMR3_StopTimer `(v  1 e 1 0 ]
-"84
+"87
 [v _TMR3_WriteTimer TMR3_WriteTimer `(v  1 e 1 0 ]
 [v i2_TMR3_WriteTimer TMR3_WriteTimer `(v  1 e 1 0 ]
-"106
+"109
 [v _TMR3_ISR TMR3_ISR `(v  1 e 1 0 ]
-"47 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\parse.c
+"51 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\parse.c
 [v _Parse_Data Parse_Data `(v  1 e 1 0 ]
 "72 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h
 [v _INT0PPS INT0PPS `VEuc  1 e 1 @3745 ]
@@ -396,7 +398,7 @@
 [v _TRISB TRISB `VEuc  1 e 1 @3977 ]
 "14620
 [v _TRISC TRISC `VEuc  1 e 1 @3978 ]
-[s S887 . 1 `uc 1 TRISC0 1 0 :1:0 
+[s S883 . 1 `uc 1 TRISC0 1 0 :1:0 
 `uc 1 TRISC1 1 0 :1:1 
 `uc 1 TRISC2 1 0 :1:2 
 `uc 1 TRISC3 1 0 :1:3 
@@ -406,9 +408,9 @@
 `uc 1 TRISC7 1 0 :1:7 
 ]
 "14642
-[u S896 . 1 `S887 1 . 1 0 ]
-[v _TRISCbits TRISCbits `VES896  1 e 1 @3978 ]
-[s S776 . 1 `uc 1 RA0 1 0 :1:0 
+[u S892 . 1 `S883 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES892  1 e 1 @3978 ]
+[s S772 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
 `uc 1 RA2 1 0 :1:2 
 `uc 1 RA3 1 0 :1:3 
@@ -418,14 +420,14 @@
 `uc 1 RA7 1 0 :1:7 
 ]
 "14766
-[s S785 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+[s S781 . 1 `uc 1 ULPWUIN 1 0 :1:0 
 `uc 1 . 1 0 :4:1 
 `uc 1 LVDIN 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 RJPU 1 0 :1:7 
 ]
-[u S791 . 1 `S776 1 . 1 0 `S785 1 . 1 0 ]
-[v _PORTAbits PORTAbits `VES791  1 e 1 @3981 ]
+[u S787 . 1 `S772 1 . 1 0 `S781 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES787  1 e 1 @3981 ]
 [s S393 . 1 `uc 1 RB0 1 0 :1:0 
 `uc 1 RB1 1 0 :1:1 
 `uc 1 RB2 1 0 :1:2 
@@ -441,7 +443,7 @@
 ]
 [u S405 . 1 `S393 1 . 1 0 `S402 1 . 1 0 ]
 [v _PORTBbits PORTBbits `VES405  1 e 1 @3982 ]
-[s S953 . 1 `uc 1 RC0 1 0 :1:0 
+[s S949 . 1 `uc 1 RC0 1 0 :1:0 
 `uc 1 RC1 1 0 :1:1 
 `uc 1 RC2 1 0 :1:2 
 `uc 1 RC3 1 0 :1:3 
@@ -451,15 +453,15 @@
 `uc 1 RC7 1 0 :1:7 
 ]
 "14923
-[s S962 . 1 `uc 1 . 1 0 :1:0 
+[s S958 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 CCP2 1 0 :1:1 
 `uc 1 PA1 1 0 :1:2 
 ]
-[s S966 . 1 `uc 1 . 1 0 :1:0 
+[s S962 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 PA2 1 0 :1:1 
 ]
-[u S969 . 1 `S953 1 . 1 0 `S962 1 . 1 0 `S966 1 . 1 0 ]
-[v _PORTCbits PORTCbits `VES969  1 e 1 @3983 ]
+[u S965 . 1 `S949 1 . 1 0 `S958 1 . 1 0 `S962 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES965  1 e 1 @3983 ]
 "15022
 [v _SSP1BUF SSP1BUF `VEuc  1 e 1 @3986 ]
 "15042
@@ -468,19 +470,19 @@
 [v _SSP1STAT SSP1STAT `VEuc  1 e 1 @3989 ]
 "15686
 [v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @3990 ]
-[s S908 . 1 `uc 1 SSPM 1 0 :4:0 
+[s S904 . 1 `uc 1 SSPM 1 0 :4:0 
 `uc 1 CKP 1 0 :1:4 
 `uc 1 SSPEN 1 0 :1:5 
 `uc 1 SSPOV 1 0 :1:6 
 `uc 1 WCOL 1 0 :1:7 
 ]
 "15716
-[s S914 . 1 `uc 1 SSPM0 1 0 :1:0 
+[s S910 . 1 `uc 1 SSPM0 1 0 :1:0 
 `uc 1 SSPM1 1 0 :1:1 
 `uc 1 SSPM2 1 0 :1:2 
 `uc 1 SSPM3 1 0 :1:3 
 ]
-[s S919 . 1 `uc 1 SSPM01 1 0 :1:0 
+[s S915 . 1 `uc 1 SSPM01 1 0 :1:0 
 `uc 1 SSPM11 1 0 :1:1 
 `uc 1 SSPM21 1 0 :1:2 
 `uc 1 SSPM31 1 0 :1:3 
@@ -489,8 +491,8 @@
 `uc 1 SSPOV1 1 0 :1:6 
 `uc 1 WCOL1 1 0 :1:7 
 ]
-[u S928 . 1 `S908 1 . 1 0 `S914 1 . 1 0 `S919 1 . 1 0 ]
-[v _SSP1CON1bits SSP1CON1bits `VES928  1 e 1 @3990 ]
+[u S924 . 1 `S904 1 . 1 0 `S910 1 . 1 0 `S915 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES924  1 e 1 @3990 ]
 "16055
 [v _RC1REG RC1REG `VEuc  1 e 1 @3993 ]
 "16109
@@ -534,35 +536,35 @@
 [v _TMR3H TMR3H `VEuc  1 e 1 @4040 ]
 "21938
 [v _T3CON T3CON `VEuc  1 e 1 @4041 ]
-[s S1138 . 1 `uc 1 . 1 0 :2:0 
+[s S1134 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_SYNC 1 0 :1:2 
 ]
 "21977
-[s S1141 . 1 `uc 1 ON 1 0 :1:0 
+[s S1137 . 1 `uc 1 ON 1 0 :1:0 
 `uc 1 RD16 1 0 :1:1 
 `uc 1 nSYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 CKPS 1 0 :2:4 
 ]
-[s S1252 . 1 `uc 1 . 1 0 :2:0 
+[s S1248 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_T3SYNC 1 0 :1:2 
 ]
-[s S1255 . 1 `uc 1 TMR3ON 1 0 :1:0 
+[s S1251 . 1 `uc 1 TMR3ON 1 0 :1:0 
 `uc 1 T3RD16 1 0 :1:1 
 `uc 1 nT3SYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 T3CKPS0 1 0 :1:4 
 `uc 1 T3CKPS1 1 0 :1:5 
 ]
-[s S1157 . 1 `uc 1 . 1 0 :4:0 
+[s S1153 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 CKPS0 1 0 :1:4 
 `uc 1 CKPS1 1 0 :1:5 
 ]
-[s S1266 . 1 `uc 1 . 1 0 :1:0 
+[s S1262 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 RD163 1 0 :1:1 
 ]
-[u S1269 . 1 `S1138 1 . 1 0 `S1141 1 . 1 0 `S1252 1 . 1 0 `S1255 1 . 1 0 `S1157 1 . 1 0 `S1266 1 . 1 0 ]
-[v _T3CONbits T3CONbits `VES1269  1 e 1 @4041 ]
+[u S1265 . 1 `S1134 1 . 1 0 `S1137 1 . 1 0 `S1248 1 . 1 0 `S1251 1 . 1 0 `S1153 1 . 1 0 `S1262 1 . 1 0 ]
+[v _T3CONbits T3CONbits `VES1265  1 e 1 @4041 ]
 "22052
 [v _T3GCON T3GCON `VEuc  1 e 1 @4042 ]
 "22284
@@ -576,21 +578,21 @@
 "22865
 [v _T1CON T1CON `VEuc  1 e 1 @4047 ]
 "22904
-[s S1147 . 1 `uc 1 . 1 0 :2:0 
+[s S1143 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_T1SYNC 1 0 :1:2 
 ]
-[s S1150 . 1 `uc 1 TMR1ON 1 0 :1:0 
+[s S1146 . 1 `uc 1 TMR1ON 1 0 :1:0 
 `uc 1 T1RD16 1 0 :1:1 
 `uc 1 nT1SYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 T1CKPS0 1 0 :1:4 
 `uc 1 T1CKPS1 1 0 :1:5 
 ]
-[s S1161 . 1 `uc 1 . 1 0 :1:0 
+[s S1157 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 RD161 1 0 :1:1 
 ]
-[u S1164 . 1 `S1138 1 . 1 0 `S1141 1 . 1 0 `S1147 1 . 1 0 `S1150 1 . 1 0 `S1157 1 . 1 0 `S1161 1 . 1 0 ]
-[v _T1CONbits T1CONbits `VES1164  1 e 1 @4047 ]
+[u S1160 . 1 `S1134 1 . 1 0 `S1137 1 . 1 0 `S1143 1 . 1 0 `S1146 1 . 1 0 `S1153 1 . 1 0 `S1157 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES1160  1 e 1 @4047 ]
 "22979
 [v _T1GCON T1GCON `VEuc  1 e 1 @4048 ]
 "23211
@@ -603,20 +605,20 @@
 [v _TMR0H TMR0H `VEuc  1 e 1 @4052 ]
 "23887
 [v _T0CON0 T0CON0 `VEuc  1 e 1 @4053 ]
-[s S810 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+[s S806 . 1 `uc 1 T0OUTPS 1 0 :4:0 
 `uc 1 T016BIT 1 0 :1:4 
 `uc 1 T0OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 T0EN 1 0 :1:7 
 ]
 "23907
-[s S816 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+[s S812 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
 `uc 1 T0OUTPS1 1 0 :1:1 
 `uc 1 T0OUTPS2 1 0 :1:2 
 `uc 1 T0OUTPS3 1 0 :1:3 
 ]
-[u S821 . 1 `S810 1 . 1 0 `S816 1 . 1 0 ]
-[v _T0CON0bits T0CON0bits `VES821  1 e 1 @4053 ]
+[u S817 . 1 `S806 1 . 1 0 `S812 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES817  1 e 1 @4053 ]
 "23952
 [v _T0CON1 T0CON1 `VEuc  1 e 1 @4054 ]
 [s S284 . 1 `uc 1 INT0EDG 1 0 :1:0 
@@ -654,185 +656,180 @@
 [v _dp_h dp_h `C[2]f  1 s 8 dp_h ]
 "21
 [v _dp_l dp_l `C[2]f  1 s 8 dp_l ]
-"34 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\main.c
+"37 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\main.c
 [v _rx_data rx_data `VE[20]uc  1 e 20 0 ]
-"36
-[v _rx_data_end rx_data_end `VEuc  1 e 1 0 ]
 "39
+[v _rx_data_end rx_data_end `VEuc  1 e 1 0 ]
+"42
 [v _sec sec `a  1 e 1 0 ]
-"42
-[v _frequency frequency `l  1 e 4 0 ]
 "45
+[v _frequency frequency `l  1 e 4 0 ]
+"48
 [v _cycle cycle `VEl  1 e 4 0 ]
-"47
-[v _temp_cycle temp_cycle `VEl  1 e 4 0 ]
 "50
+[v _temp_cycle temp_cycle `VEl  1 e 4 0 ]
+"53
 [v _break_duration break_duration `VEui  1 e 2 0 ]
-"52
-[v _temp_break_duration temp_break_duration `VEui  1 e 2 0 ]
 "55
+[v _temp_break_duration temp_break_duration `VEui  1 e 2 0 ]
+"58
 [v _packages packages `VEui  1 e 2 0 ]
-"57
-[v _temp_packages temp_packages `VEui  1 e 2 0 ]
 "60
+[v _temp_packages temp_packages `VEui  1 e 2 0 ]
+"63
 [v _state state `VEui  1 e 2 0 ]
-"38 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/eusart.c
+"41 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/eusart.c
 [v _eusartTxHead eusartTxHead `VEuc  1 e 1 0 ]
-"40
+"43
 [v _eusartTxTail eusartTxTail `VEuc  1 e 1 0 ]
-"42
+"45
 [v _eusartTxBuffer eusartTxBuffer `VE[8]uc  1 e 8 0 ]
-"44
-[v _eusartTxBufferRemaining eusartTxBufferRemaining `VEuc  1 e 1 0 ]
 "47
+[v _eusartTxBufferRemaining eusartTxBufferRemaining `VEuc  1 e 1 0 ]
+"50
 [v _eusartRxHead eusartRxHead `VEuc  1 e 1 0 ]
-"49
+"52
 [v _eusartRxTail eusartRxTail `VEuc  1 e 1 0 ]
 [s S24 . 1 `uc 1 perr 1 0 :1:0 
 `uc 1 ferr 1 0 :1:1 
 `uc 1 oerr 1 0 :1:2 
 `uc 1 reserved 1 0 :5:3 
 ]
-"51
+"54
 [u S29 . 1 `S24 1 . 1 0 `uc 1 status 1 0 ]
 [v _eusartRxStatusBuffer eusartRxStatusBuffer `VE[8]S29  1 e 8 0 ]
-"53
+"56
 [v _eusartRxCount eusartRxCount `VEuc  1 e 1 0 ]
-"55
+"58
 [v _eusartRxLastError eusartRxLastError `VES29  1 e 1 0 ]
-"60
-[v _EUSART_TxDefaultInterruptHandler EUSART_TxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
-"61
-[v _EUSART_RxDefaultInterruptHandler EUSART_RxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
 "63
-[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+[v _EUSART_TxDefaultInterruptHandler EUSART_TxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
 "64
+[v _EUSART_RxDefaultInterruptHandler EUSART_RxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"66
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"67
 [v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
-"65
+"68
 [v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
-"36 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr0.c
+"39 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr0.c
 [v _timer0ReloadVal16bit timer0ReloadVal16bit `VEus  1 e 2 0 ]
-"33 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr1.c
+"36 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr1.c
 [v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
-"32 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr3.c
+"35 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr3.c
 [v _timer3ReloadVal timer3ReloadVal `VEus  1 e 2 0 ]
-"40 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\parse.c
+"44 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\parse.c
 [v _output output `VE[50]uc  1 e 50 0 ]
-"42
+"46
 [v _temp_frequency temp_frequency `l  1 e 4 0 ]
-"63 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\main.c
+"66 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"121
+"124
 } 0
-"79 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr1.c
+"82 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr1.c
 [v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
 {
-"83
+"86
 } 0
-"23 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/mcc.c
+"26 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
-"35
+"38
 } 0
-"39 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr3.c
+"42 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr3.c
 [v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
 {
-"69
+"72
 } 0
-"40 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr1.c
+"43 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
 {
-"71
+"74
 } 0
-"41 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr0.c
+"44 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
 {
-"65
+"68
 } 0
-"35 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/spi1.c
+"38 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/spi1.c
 [v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
 {
-"51
+"54
 } 0
-"51 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/mcc.c
+"54 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/mcc.c
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
 {
-"65
+"68
 } 0
-"55 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/pin_manager.c
+"26 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
-"123
+"94
 } 0
-"37 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/mcc.c
+"40 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
-"49
+"52
 } 0
-"34 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/interrupt_manager.c
+"37 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 {
-"59
+"62
 } 0
-"59 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/ext_int.c
-[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
-{
-"69
-} 0
-"71 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/eusart.c
+"74 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/eusart.c
 [v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
 {
-"114
+"117
 } 0
-"253
+"256
 [v _EUSART_SetTxInterruptHandler EUSART_SetTxInterruptHandler `(v  1 e 1 0 ]
 {
 [v EUSART_SetTxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 11 ]
-"255
+"258
 } 0
-"257
+"260
 [v _EUSART_SetRxInterruptHandler EUSART_SetRxInterruptHandler `(v  1 e 1 0 ]
 {
 [v EUSART_SetRxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 11 ]
-"259
+"262
 } 0
-"245
+"248
 [v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
 {
 [v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 11 ]
-"247
+"250
 } 0
-"241
+"244
 [v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
 {
 [v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 11 ]
-"243
+"246
 } 0
-"249
+"252
 [v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
 {
 [v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 11 ]
-"251
+"254
 } 0
-"53 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/spi1.c
+"56 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/spi1.c
 [v _SPI1_Start SPI1_Start `(v  1 e 1 0 ]
 {
-"61
+"64
 } 0
-"47 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\parse.c
+"51 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\parse.c
 [v _Parse_Data Parse_Data `(v  1 e 1 0 ]
 {
-"53
+"57
 [v Parse_Data@i i `i  1 a 2 113 ]
-"242
+"267
 } 0
 "9 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\nf_sprintf.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
 {
-[s S2072 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[s S2100 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
 "13
-[v sprintf@f f `S2072  1 a 6 73 ]
+[v sprintf@f f `S2100  1 a 6 73 ]
 "12
 [v sprintf@ap ap `[1]*.39v  1 a 2 71 ]
 "9
@@ -845,9 +842,9 @@
 {
 "1371
 [v vfprintf@cfmt cfmt `*.25uc  1 a 2 56 ]
-[s S1484 _IO_FILE 0 ]
+[s S1512 _IO_FILE 0 ]
 "1368
-[v vfprintf@fp fp `*.39S1484  1 p 2 55 ]
+[v vfprintf@fp fp `*.39S1512  1 p 2 55 ]
 [v vfprintf@fmt fmt `*.25Cuc  1 p 2 57 ]
 [v vfprintf@ap ap `*.39*.39v  1 p 2 59 ]
 "1382
@@ -861,9 +858,9 @@
 [v vfpfcnvrt@ll ll `o  1 a 8 39 ]
 "672
 [v vfpfcnvrt@c c `uc  1 a 1 38 ]
-[s S1484 _IO_FILE 0 ]
+[s S1512 _IO_FILE 0 ]
 "670
-[v vfpfcnvrt@fp fp `*.39S1484  1 p 2 18 ]
+[v vfpfcnvrt@fp fp `*.39S1512  1 p 2 18 ]
 [v vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 20 ]
 [v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 22 ]
 "1365
@@ -877,9 +874,9 @@
 [v utoa@i i `i  1 a 2 12 ]
 [v utoa@w w `i  1 a 2 2 ]
 [v utoa@p p `i  1 a 2 0 ]
-[s S1484 _IO_FILE 0 ]
+[s S1512 _IO_FILE 0 ]
 "593
-[v utoa@fp fp `*.39S1484  1 p 2 38 ]
+[v utoa@fp fp `*.39S1512  1 p 2 38 ]
 [v utoa@d d `uo  1 p 8 40 ]
 "619
 } 0
@@ -927,9 +924,9 @@
 [v dtoa@s s `i  1 a 2 6 ]
 [v dtoa@w w `i  1 a 2 4 ]
 [v dtoa@p p `i  1 a 2 2 ]
-[s S1484 _IO_FILE 0 ]
+[s S1512 _IO_FILE 0 ]
 "274
-[v dtoa@fp fp `*.39S1484  1 p 2 38 ]
+[v dtoa@fp fp `*.39S1512  1 p 2 38 ]
 [v dtoa@d d `o  1 p 8 40 ]
 "315
 } 0
@@ -968,9 +965,9 @@
 {
 "261
 [v ctoa@w w `i  1 a 2 41 ]
-[s S1484 _IO_FILE 0 ]
+[s S1512 _IO_FILE 0 ]
 "259
-[v ctoa@fp fp `*.39S1484  1 p 2 38 ]
+[v ctoa@fp fp `*.39S1512  1 p 2 38 ]
 [v ctoa@c c `uc  1 p 1 40 ]
 "270
 } 0
@@ -980,9 +977,9 @@
 "74
 [v pad@w w `i  1 a 2 36 ]
 [v pad@i i `i  1 a 2 34 ]
-[s S1484 _IO_FILE 0 ]
+[s S1512 _IO_FILE 0 ]
 "72
-[v pad@fp fp `*.39S1484  1 p 2 27 ]
+[v pad@fp fp `*.39S1512  1 p 2 27 ]
 [v pad@buf buf `*.39uc  1 p 2 29 ]
 [v pad@p p `i  1 p 2 31 ]
 "95
@@ -1005,16 +1002,16 @@
 [v fputs@c c `uc  1 a 1 24 ]
 "8
 [v fputs@s s `*.39Cuc  1 p 2 20 ]
-[s S2072 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputs@fp fp `*.39S2072  1 p 2 22 ]
+[s S2100 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.39S2100  1 p 2 22 ]
 "19
 } 0
 "8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\nf_fputc.c
 [v _fputc fputc `(i  1 e 2 0 ]
 {
 [v fputc@c c `i  1 p 2 11 ]
-[s S2072 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputc@fp fp `*.39S2072  1 p 2 13 ]
+[s S2100 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.39S2100  1 p 2 13 ]
 "21
 } 0
 "7 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\putch.c
@@ -1075,40 +1072,61 @@
 [v ___wmul@multiplicand multiplicand `ui  1 p 2 13 ]
 "53
 } 0
-"142 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/eusart.c
+"70 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr0.c
+[v _TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+{
+"80
+} 0
+"96
+[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+{
+"101
+} 0
+"89
+[v _TMR0_WriteTimer TMR0_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR0_WriteTimer@timerVal timerVal `us  1 p 2 11 ]
+"94
+} 0
+"66 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/spi1.c
+[v _SPI1_Close SPI1_Close `(v  1 e 1 0 ]
+{
+"71
+} 0
+"145 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/eusart.c
 [v _EUSART_Write_String EUSART_Write_String `(v  1 e 1 0 ]
 {
-"145
+"148
 [v EUSART_Write_String@i i `uc  1 a 1 14 ]
-"142
+"145
 [v EUSART_Write_String@data data `*.39uc  1 p 2 12 ]
-"153
+"156
 } 0
-"116
+"119
 [v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
 {
 [v EUSART_Write@txData txData `uc  1 a 1 wreg ]
 [v EUSART_Write@txData txData `uc  1 a 1 wreg ]
 [v EUSART_Write@txData txData `uc  1 a 1 11 ]
-"140
+"143
 } 0
-"23 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\ad9833.c
+"26 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\ad9833.c
 [v _AD9833_Init AD9833_Init `(v  1 e 1 0 ]
 {
-"32
+"35
 } 0
-"37
+"40
 [v _AD9833_SetFrequency AD9833_SetFrequency `(v  1 e 1 0 ]
 {
-"40
-[v AD9833_SetFrequency@freq freq `l  1 a 4 109 ]
-"45
-[v AD9833_SetFrequency@LSB LSB `i  1 a 2 107 ]
 "43
+[v AD9833_SetFrequency@freq freq `l  1 a 4 109 ]
+"48
+[v AD9833_SetFrequency@LSB LSB `i  1 a 2 107 ]
+"46
 [v AD9833_SetFrequency@MSB MSB `i  1 a 2 105 ]
-"37
+"40
 [v AD9833_SetFrequency@frequency frequency `l  1 p 4 92 ]
-"64
+"67
 } 0
 "52 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\powf.c
 [v _powf powf `JJ(f  1 e 4 0 ]
@@ -1119,9 +1137,9 @@
 [v powf@t_h t_h `f  1 a 4 104 ]
 [v powf@t_l t_l `f  1 a 4 52 ]
 [v powf@s_l s_l `f  1 a 4 48 ]
-[u S2119 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+[u S2147 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
 "59
-[v powf@__xc8_float_word __xc8_float_word `S2119  1 a 4 184 ]
+[v powf@__xc8_float_word __xc8_float_word `S2147  1 a 4 184 ]
 "54
 [v powf@z z `f  1 a 4 180 ]
 "55
@@ -1187,9 +1205,9 @@
 "28
 [v sqrtf@t t `l  1 a 4 45 ]
 [v sqrtf@q q `l  1 a 4 41 ]
-[u S2119 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+[u S2147 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
 "31
-[v sqrtf@__xc8_float_word __xc8_float_word `S2119  1 a 4 37 ]
+[v sqrtf@__xc8_float_word __xc8_float_word `S2147  1 a 4 37 ]
 "28
 [v sqrtf@i i `l  1 a 4 33 ]
 [v sqrtf@s s `l  1 a 4 29 ]
@@ -1200,9 +1218,9 @@
 "4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\nanf.c
 [v _nanf nanf `(f  1 e 4 0 ]
 {
-[u S2119 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+[u S2147 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
 "7
-[v nanf@u u `S2119  1 a 4 15 ]
+[v nanf@u u `S2147  1 a 4 15 ]
 "4
 [v nanf@s s `*.25Cuc  1 p 2 11 ]
 "13
@@ -1219,9 +1237,9 @@
 {
 "7
 [v scalbnf@y y `f  1 a 4 8 ]
-[u S2119 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+[u S2147 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
 "6
-[v scalbnf@u u `S2119  1 a 4 4 ]
+[v scalbnf@u u `S2147  1 a 4 4 ]
 "4
 [v scalbnf@x x `f  1 p 4 52 ]
 [v scalbnf@n n `i  1 p 2 56 ]
@@ -1230,17 +1248,17 @@
 "8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
 {
-[s S1890 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+[s S1918 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
 "13
-[s S1895 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
-[u S1898 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1890 1 fAsBytes 4 0 `S1895 1 fAsWords 4 0 ]
-[v ___flmul@prod prod `S1898  1 a 4 46 ]
+[s S1923 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S1926 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1918 1 fAsBytes 4 0 `S1923 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1926  1 a 4 46 ]
 "12
 [v ___flmul@grs grs `ul  1 a 4 40 ]
-[s S1966 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+[s S1994 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
 "14
-[u S1969 . 2 `s 1 i 2 0 `us 1 n 2 0 `S1966 1 nAsBytes 2 0 ]
-[v ___flmul@temp temp `S1969  1 a 2 50 ]
+[u S1997 . 2 `s 1 i 2 0 `us 1 n 2 0 `S1994 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1997  1 a 2 50 ]
 "10
 [v ___flmul@bexp bexp `uc  1 a 1 45 ]
 "11
@@ -1255,13 +1273,13 @@
 "4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fabsf.c
 [v _fabsf fabsf `(f  1 e 4 0 ]
 {
-[u S2119 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+[u S2147 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
 "6
-[v fabsf@u u `S2119  1 a 4 15 ]
+[v fabsf@u u `S2147  1 a 4 15 ]
 "4
 [v fabsf@x x `f  1 p 4 11 ]
 "5
-[v fabsf@F463 F463 `S2119  1 s 4 F463 ]
+[v fabsf@F463 F463 `S2147  1 s 4 F463 ]
 "9
 } 0
 "10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
@@ -1338,158 +1356,158 @@
 [v ___fltol@f1 f1 `d  1 p 4 82 ]
 "70
 } 0
-"84 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/spi1.c
+"87 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/spi1.c
 [v _SPI1_WriteWord SPI1_WriteWord `(v  1 e 1 0 ]
 {
-"88
+"91
 [v SPI1_WriteWord@byteh byteh `uc  1 a 1 14 ]
-"87
+"90
 [v SPI1_WriteWord@bytel bytel `uc  1 a 1 13 ]
-"84
+"87
 [v SPI1_WriteWord@word word `us  1 p 2 11 ]
-"104
+"107
 } 0
-"108 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/interrupt_manager.c
+"111 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManagerLow INTERRUPT_InterruptManagerLow `IIL(v  1 e 1 0 ]
 {
-"139
+"142
 } 0
-"106 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr3.c
+"109 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr3.c
 [v _TMR3_ISR TMR3_ISR `(v  1 e 1 0 ]
 {
-"124
+"127
 } 0
-"78
+"81
 [v _TMR3_StopTimer TMR3_StopTimer `(v  1 e 1 0 ]
 {
-"82
+"85
 } 0
-"71
+"74
 [v _TMR3_StartTimer TMR3_StartTimer `(v  1 e 1 0 ]
 {
-"76
+"79
 } 0
-"84
+"87
 [v _TMR3_WriteTimer TMR3_WriteTimer `(v  1 e 1 0 ]
 {
 [v TMR3_WriteTimer@timerVal timerVal `us  1 p 2 2 ]
-"104
+"107
 } 0
-"107 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr1.c
+"110 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr1.c
 [v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
 {
-"116
+"119
 } 0
-"37 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/ext_int.c
+"41 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/ext_int.c
 [v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
-{
-"57
-} 0
-"67 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr0.c
-[v _TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
-{
-"77
-} 0
-"93
-[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
-{
-"98
-} 0
-"86
-[v _TMR0_WriteTimer TMR0_WriteTimer `(v  1 e 1 0 ]
-{
-[v TMR0_WriteTimer@timerVal timerVal `us  1 p 2 2 ]
-"91
-} 0
-"63 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/spi1.c
-[v _SPI1_Close SPI1_Close `(v  1 e 1 0 ]
-{
-"68
-} 0
-"156 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/eusart.c
-[v _EUSART_Transmit_ISR EUSART_Transmit_ISR `(v  1 e 1 0 ]
-{
-"176
-} 0
-"178
-[v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
-{
-"211
-} 0
-"79 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr1.c
-[v i1_TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
-{
-"83
-} 0
-"85
-[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
-{
-[v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 2 ]
-"105
-} 0
-"73
-[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
-{
-"77
-} 0
-"229 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/eusart.c
-[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
-{
-"235
-} 0
-"227
-[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
-{
-} 0
-"237
-[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
-{
-"239
-} 0
-"214
-[v _EUSART_RxDataHandler EUSART_RxDataHandler `(v  1 e 1 0 ]
-{
-"225
-} 0
-"61 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/interrupt_manager.c
-[v _INTERRUPT_InterruptManagerHigh INTERRUPT_InterruptManagerHigh `IIH(v  1 e 1 0 ]
-{
-"106
-} 0
-"71 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr3.c
-[v i2_TMR3_StartTimer TMR3_StartTimer `(v  1 e 1 0 ]
-{
-"76
-} 0
-"84
-[v i2_TMR3_WriteTimer TMR3_WriteTimer `(v  1 e 1 0 ]
-{
-[v i2TMR3_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
-"104
-} 0
-"67 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr0.c
-[v i2_TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
-{
-"77
-} 0
-"93
-[v i2_TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
-{
-"98
-} 0
-"86
-[v i2_TMR0_WriteTimer TMR0_WriteTimer `(v  1 e 1 0 ]
-{
-[v i2TMR0_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
-"91
-} 0
-"53 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/spi1.c
-[v i2_SPI1_Start SPI1_Start `(v  1 e 1 0 ]
 {
 "61
 } 0
-"79 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\Droplet_Generator.X\mcc_generated_files/tmr0.c
+"70 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr0.c
+[v i1_TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+{
+"80
+} 0
+"96
+[v i1_TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+{
+"101
+} 0
+"89
+[v i1_TMR0_WriteTimer TMR0_WriteTimer `(v  1 e 1 0 ]
+{
+[v i1TMR0_WriteTimer@timerVal timerVal `us  1 p 2 2 ]
+"94
+} 0
+"66 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/spi1.c
+[v i1_SPI1_Close SPI1_Close `(v  1 e 1 0 ]
+{
+"71
+} 0
+"159 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/eusart.c
+[v _EUSART_Transmit_ISR EUSART_Transmit_ISR `(v  1 e 1 0 ]
+{
+"179
+} 0
+"181
+[v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
+{
+"214
+} 0
+"82 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr1.c
+[v i1_TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+{
+"86
+} 0
+"88
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 2 ]
+"108
+} 0
+"76
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"80
+} 0
+"232 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/eusart.c
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+"238
+} 0
+"230
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"240
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"242
+} 0
+"217
+[v _EUSART_RxDataHandler EUSART_RxDataHandler `(v  1 e 1 0 ]
+{
+"228
+} 0
+"64 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManagerHigh INTERRUPT_InterruptManagerHigh `IIH(v  1 e 1 0 ]
+{
+"109
+} 0
+"74 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr3.c
+[v i2_TMR3_StartTimer TMR3_StartTimer `(v  1 e 1 0 ]
+{
+"79
+} 0
+"87
+[v i2_TMR3_WriteTimer TMR3_WriteTimer `(v  1 e 1 0 ]
+{
+[v i2TMR3_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"107
+} 0
+"70 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr0.c
+[v i2_TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+{
+"80
+} 0
+"96
+[v i2_TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+{
+"101
+} 0
+"89
+[v i2_TMR0_WriteTimer TMR0_WriteTimer `(v  1 e 1 0 ]
+{
+[v i2TMR0_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"94
+} 0
+"56 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/spi1.c
+[v i2_SPI1_Start SPI1_Start `(v  1 e 1 0 ]
+{
+"64
+} 0
+"82 L:\Labs\SO\PHCHBS-I21340\Personal\Lernende\Elektronik\Daniel_Bachmann\IPA\Software\GitHub\Experimental_Droplet_Generator\Droplet_Generator.X\mcc_generated_files/tmr0.c
 [v _TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
 {
-"84
+"87
 } 0

@@ -7,7 +7,7 @@
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "mcc_generated_files/tmr1.c" 2
-# 22 "mcc_generated_files/tmr1.c"
+# 25 "mcc_generated_files/tmr1.c"
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\xc.h" 1 3
 # 18 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -15262,12 +15262,12 @@ extern __attribute__((nonreentrant)) void _delaywdt(unsigned long);
 #pragma intrinsic(_delay3)
 extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 # 32 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\xc.h" 2 3
-# 22 "mcc_generated_files/tmr1.c" 2
+# 25 "mcc_generated_files/tmr1.c" 2
 
 # 1 "mcc_generated_files/tmr1.h" 1
-# 24 "mcc_generated_files/tmr1.h"
+# 27 "mcc_generated_files/tmr1.h"
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\stdbool.h" 1 3
-# 24 "mcc_generated_files/tmr1.h" 2
+# 27 "mcc_generated_files/tmr1.h" 2
 
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\stdint.h" 1 3
 # 22 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\stdint.h" 3
@@ -15352,18 +15352,18 @@ typedef int32_t int_fast32_t;
 typedef uint32_t uint_fast16_t;
 typedef uint32_t uint_fast32_t;
 # 155 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\stdint.h" 2 3
-# 25 "mcc_generated_files/tmr1.h" 2
-# 63 "mcc_generated_files/tmr1.h"
+# 28 "mcc_generated_files/tmr1.h" 2
+# 66 "mcc_generated_files/tmr1.h"
 void TMR1_Initialize(void);
-# 92 "mcc_generated_files/tmr1.h"
+# 95 "mcc_generated_files/tmr1.h"
 void TMR1_StartTimer(void);
-# 124 "mcc_generated_files/tmr1.h"
+# 127 "mcc_generated_files/tmr1.h"
 void TMR1_StopTimer(void);
-# 163 "mcc_generated_files/tmr1.h"
+# 166 "mcc_generated_files/tmr1.h"
 void TMR1_WriteTimer(uint16_t timerVal);
-# 181 "mcc_generated_files/tmr1.h"
+# 184 "mcc_generated_files/tmr1.h"
 void TMR1_ISR(void);
-# 23 "mcc_generated_files/tmr1.c" 2
+# 26 "mcc_generated_files/tmr1.c" 2
 
 
 

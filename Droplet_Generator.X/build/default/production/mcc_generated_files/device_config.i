@@ -7,7 +7,7 @@
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "mcc_generated_files/device_config.c" 2
-# 19 "mcc_generated_files/device_config.c"
+# 22 "mcc_generated_files/device_config.c"
 #pragma config FEXTOSC = OFF
 #pragma config RSTOSC = HFINTOSC_64MHZ
 
@@ -63,5 +63,5 @@
 
 
 #pragma config EBTRB = OFF
-# 73 "mcc_generated_files/device_config.c"
+# 76 "mcc_generated_files/device_config.c"
 

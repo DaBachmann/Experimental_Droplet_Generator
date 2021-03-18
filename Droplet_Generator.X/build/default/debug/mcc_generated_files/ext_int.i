@@ -7,9 +7,9 @@
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "mcc_generated_files/ext_int.c" 2
-# 20 "mcc_generated_files/ext_int.c"
+# 23 "mcc_generated_files/ext_int.c"
 # 1 "mcc_generated_files/mcc.h" 1
-# 21 "mcc_generated_files/mcc.h"
+# 24 "mcc_generated_files/mcc.h"
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\xc.h" 1 3
 # 18 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -15264,15 +15264,15 @@ extern __attribute__((nonreentrant)) void _delaywdt(unsigned long);
 #pragma intrinsic(_delay3)
 extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 # 32 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\xc.h" 2 3
-# 21 "mcc_generated_files/mcc.h" 2
+# 24 "mcc_generated_files/mcc.h" 2
 
 # 1 "mcc_generated_files/device_config.h" 1
-# 22 "mcc_generated_files/mcc.h" 2
+# 25 "mcc_generated_files/mcc.h" 2
 
 # 1 "mcc_generated_files/pin_manager.h" 1
-# 214 "mcc_generated_files/pin_manager.h"
+# 195 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 23 "mcc_generated_files/mcc.h" 2
+# 26 "mcc_generated_files/mcc.h" 2
 
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\stdint.h" 1 3
 # 22 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\stdint.h" 3
@@ -15357,10 +15357,10 @@ typedef int32_t int_fast32_t;
 typedef uint32_t uint_fast16_t;
 typedef uint32_t uint_fast32_t;
 # 155 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\stdint.h" 2 3
-# 24 "mcc_generated_files/mcc.h" 2
+# 27 "mcc_generated_files/mcc.h" 2
 
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\stdbool.h" 1 3
-# 25 "mcc_generated_files/mcc.h" 2
+# 28 "mcc_generated_files/mcc.h" 2
 
 
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\conio.h" 1 3
@@ -15394,7 +15394,7 @@ extern __bit kbhit(void);
 
 extern char * cgets(char *);
 extern void cputs(const char *);
-# 27 "mcc_generated_files/mcc.h" 2
+# 30 "mcc_generated_files/mcc.h" 2
 
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\string.h" 1 3
 # 25 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\string.h" 3
@@ -15451,7 +15451,7 @@ size_t strxfrm_l (char *restrict, const char *restrict, size_t, locale_t);
 
 
 void *memccpy (void *restrict, const void *restrict, int, size_t);
-# 28 "mcc_generated_files/mcc.h" 2
+# 31 "mcc_generated_files/mcc.h" 2
 
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\stdio.h" 1 3
 # 24 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\stdio.h" 3
@@ -15589,7 +15589,7 @@ char *ctermid(char *);
 
 
 char *tempnam(const char *, const char *);
-# 29 "mcc_generated_files/mcc.h" 2
+# 32 "mcc_generated_files/mcc.h" 2
 
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\math.h" 1 3
 # 15 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.05\\pic\\include\\c99\\math.h" 3
@@ -16064,78 +16064,78 @@ double jn(int, double);
 double y0(double);
 double y1(double);
 double yn(int, double);
-# 30 "mcc_generated_files/mcc.h" 2
+# 33 "mcc_generated_files/mcc.h" 2
 
 # 1 "mcc_generated_files/interrupt_manager.h" 1
-# 100 "mcc_generated_files/interrupt_manager.h"
+# 103 "mcc_generated_files/interrupt_manager.h"
 void INTERRUPT_Initialize (void);
-# 31 "mcc_generated_files/mcc.h" 2
+# 34 "mcc_generated_files/mcc.h" 2
 
 # 1 "mcc_generated_files/spi1.h" 1
-# 31 "mcc_generated_files/spi1.h"
+# 34 "mcc_generated_files/spi1.h"
 typedef enum {
     SPI1_DEFAULT
 } spi1_modes_t;
-# 71 "mcc_generated_files/spi1.h"
+# 74 "mcc_generated_files/spi1.h"
 void SPI1_Initialize(void);
-# 91 "mcc_generated_files/spi1.h"
+# 94 "mcc_generated_files/spi1.h"
 void SPI1_Start(void);
-# 111 "mcc_generated_files/spi1.h"
+# 114 "mcc_generated_files/spi1.h"
 void SPI1_Close(void);
-# 132 "mcc_generated_files/spi1.h"
+# 135 "mcc_generated_files/spi1.h"
 void SPI1_WriteByte(uint8_t byte);
-# 153 "mcc_generated_files/spi1.h"
+# 156 "mcc_generated_files/spi1.h"
 void SPI1_WriteWord(uint16_t word);
-# 32 "mcc_generated_files/mcc.h" 2
-
-# 1 "mcc_generated_files/tmr3.h" 1
-# 65 "mcc_generated_files/tmr3.h"
-void TMR3_Initialize(void);
-# 94 "mcc_generated_files/tmr3.h"
-void TMR3_StartTimer(void);
-# 126 "mcc_generated_files/tmr3.h"
-void TMR3_StopTimer(void);
-# 165 "mcc_generated_files/tmr3.h"
-void TMR3_WriteTimer(uint16_t timerVal);
-# 183 "mcc_generated_files/tmr3.h"
-void TMR3_ISR(void);
-# 33 "mcc_generated_files/mcc.h" 2
-
-# 1 "mcc_generated_files/ext_int.h" 1
-# 213 "mcc_generated_files/ext_int.h"
-void EXT_INT_Initialize(void);
-# 235 "mcc_generated_files/ext_int.h"
-void INT0_ISR(void);
-# 34 "mcc_generated_files/mcc.h" 2
-
-# 1 "mcc_generated_files/tmr1.h" 1
-# 63 "mcc_generated_files/tmr1.h"
-void TMR1_Initialize(void);
-# 92 "mcc_generated_files/tmr1.h"
-void TMR1_StartTimer(void);
-# 124 "mcc_generated_files/tmr1.h"
-void TMR1_StopTimer(void);
-# 163 "mcc_generated_files/tmr1.h"
-void TMR1_WriteTimer(uint16_t timerVal);
-# 181 "mcc_generated_files/tmr1.h"
-void TMR1_ISR(void);
 # 35 "mcc_generated_files/mcc.h" 2
 
-# 1 "mcc_generated_files/tmr0.h" 1
-# 62 "mcc_generated_files/tmr0.h"
-void TMR0_Initialize(void);
-# 91 "mcc_generated_files/tmr0.h"
-void TMR0_StartTimer(void);
-# 123 "mcc_generated_files/tmr0.h"
-void TMR0_StopTimer(void);
-# 162 "mcc_generated_files/tmr0.h"
-void TMR0_WriteTimer(uint16_t timerVal);
-# 198 "mcc_generated_files/tmr0.h"
-void TMR0_Reload(void);
+# 1 "mcc_generated_files/tmr3.h" 1
+# 68 "mcc_generated_files/tmr3.h"
+void TMR3_Initialize(void);
+# 97 "mcc_generated_files/tmr3.h"
+void TMR3_StartTimer(void);
+# 129 "mcc_generated_files/tmr3.h"
+void TMR3_StopTimer(void);
+# 168 "mcc_generated_files/tmr3.h"
+void TMR3_WriteTimer(uint16_t timerVal);
+# 186 "mcc_generated_files/tmr3.h"
+void TMR3_ISR(void);
 # 36 "mcc_generated_files/mcc.h" 2
 
+# 1 "mcc_generated_files/ext_int.h" 1
+# 216 "mcc_generated_files/ext_int.h"
+void EXT_INT_Initialize(void);
+# 238 "mcc_generated_files/ext_int.h"
+void INT0_ISR(void);
+# 37 "mcc_generated_files/mcc.h" 2
+
+# 1 "mcc_generated_files/tmr1.h" 1
+# 66 "mcc_generated_files/tmr1.h"
+void TMR1_Initialize(void);
+# 95 "mcc_generated_files/tmr1.h"
+void TMR1_StartTimer(void);
+# 127 "mcc_generated_files/tmr1.h"
+void TMR1_StopTimer(void);
+# 166 "mcc_generated_files/tmr1.h"
+void TMR1_WriteTimer(uint16_t timerVal);
+# 184 "mcc_generated_files/tmr1.h"
+void TMR1_ISR(void);
+# 38 "mcc_generated_files/mcc.h" 2
+
+# 1 "mcc_generated_files/tmr0.h" 1
+# 65 "mcc_generated_files/tmr0.h"
+void TMR0_Initialize(void);
+# 94 "mcc_generated_files/tmr0.h"
+void TMR0_StartTimer(void);
+# 126 "mcc_generated_files/tmr0.h"
+void TMR0_StopTimer(void);
+# 165 "mcc_generated_files/tmr0.h"
+void TMR0_WriteTimer(uint16_t timerVal);
+# 201 "mcc_generated_files/tmr0.h"
+void TMR0_Reload(void);
+# 39 "mcc_generated_files/mcc.h" 2
+
 # 1 "mcc_generated_files/eusart.h" 1
-# 38 "mcc_generated_files/eusart.h"
+# 41 "mcc_generated_files/eusart.h"
 typedef union {
     struct {
         unsigned perr : 1;
@@ -16157,48 +16157,48 @@ extern volatile uint8_t eusartRxCount;
 
 extern void (*EUSART_TxDefaultInterruptHandler)(void);
 extern void (*EUSART_RxDefaultInterruptHandler)(void);
-# 80 "mcc_generated_files/eusart.h"
+# 83 "mcc_generated_files/eusart.h"
 void EUSART_Initialize(void);
-# 100 "mcc_generated_files/eusart.h"
+# 103 "mcc_generated_files/eusart.h"
 void EUSART_Write(uint8_t txData);
-# 121 "mcc_generated_files/eusart.h"
+# 124 "mcc_generated_files/eusart.h"
 void EUSART_Write_String(char data[]);
-# 142 "mcc_generated_files/eusart.h"
+# 145 "mcc_generated_files/eusart.h"
 void EUSART_Transmit_ISR(void);
-# 163 "mcc_generated_files/eusart.h"
+# 166 "mcc_generated_files/eusart.h"
 void EUSART_Receive_ISR(void);
-# 184 "mcc_generated_files/eusart.h"
+# 187 "mcc_generated_files/eusart.h"
 void EUSART_RxDataHandler(void);
-# 202 "mcc_generated_files/eusart.h"
+# 205 "mcc_generated_files/eusart.h"
 void EUSART_SetFramingErrorHandler(void (* interruptHandler)(void));
-# 220 "mcc_generated_files/eusart.h"
+# 223 "mcc_generated_files/eusart.h"
 void EUSART_SetOverrunErrorHandler(void (* interruptHandler)(void));
-# 238 "mcc_generated_files/eusart.h"
+# 241 "mcc_generated_files/eusart.h"
 void EUSART_SetErrorHandler(void (* interruptHandler)(void));
-# 258 "mcc_generated_files/eusart.h"
+# 261 "mcc_generated_files/eusart.h"
 void EUSART_SetTxInterruptHandler(void (* interruptHandler)(void));
-# 278 "mcc_generated_files/eusart.h"
+# 281 "mcc_generated_files/eusart.h"
 void EUSART_SetRxInterruptHandler(void (* interruptHandler)(void));
-# 37 "mcc_generated_files/mcc.h" 2
+# 40 "mcc_generated_files/mcc.h" 2
 
 # 1 "mcc_generated_files/../parse.h" 1
-# 42 "mcc_generated_files/../parse.h"
+# 45 "mcc_generated_files/../parse.h"
 void Parse_Data();
-# 38 "mcc_generated_files/mcc.h" 2
+# 41 "mcc_generated_files/mcc.h" 2
 
 # 1 "mcc_generated_files/../ad9833.h" 1
-# 41 "mcc_generated_files/../ad9833.h"
+# 44 "mcc_generated_files/../ad9833.h"
 void AD9833_Init(void);
-# 62 "mcc_generated_files/../ad9833.h"
+# 65 "mcc_generated_files/../ad9833.h"
 void AD9833_SetFrequency(long frequency);
-# 39 "mcc_generated_files/mcc.h" 2
-# 58 "mcc_generated_files/mcc.h"
+# 42 "mcc_generated_files/mcc.h" 2
+# 61 "mcc_generated_files/mcc.h"
 void SYSTEM_Initialize(void);
-# 71 "mcc_generated_files/mcc.h"
+# 74 "mcc_generated_files/mcc.h"
 void OSCILLATOR_Initialize(void);
-# 84 "mcc_generated_files/mcc.h"
+# 87 "mcc_generated_files/mcc.h"
 void PMD_Initialize(void);
-# 20 "mcc_generated_files/ext_int.c" 2
+# 23 "mcc_generated_files/ext_int.c" 2
 
 
 
@@ -16212,6 +16212,7 @@ extern volatile unsigned int temp_packages;
 extern volatile unsigned int break_duration;
 extern volatile unsigned int temp_break_duration;
 extern volatile unsigned int packages;
+
 
 
 
@@ -16246,6 +16247,6 @@ void EXT_INT_Initialize(void)
 
     (INTCONbits.INT0EDG = 1);
 
-    (PIE0bits.INT0IE = 1);
+
 
 }

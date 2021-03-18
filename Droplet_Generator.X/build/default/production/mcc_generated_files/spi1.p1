@@ -1,6 +1,6 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"23 mcc_generated_files/spi1.c
-[; ;mcc_generated_files/spi1.c: 23: typedef struct {
+"26 mcc_generated_files/spi1.c
+[; ;mcc_generated_files/spi1.c: 26: typedef struct {
 [s S1320 `uc 1 `uc 1 `uc 1 `uc 1 ]
 [n S1320 . con1 stat add operation ]
 "1896 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h
@@ -1298,8 +1298,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 "25228
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h: 25228: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-"31 mcc_generated_files/spi1.c
-[; ;mcc_generated_files/spi1.c: 31: static const spi1_configuration_t spi1_configuration[] = {
+"34 mcc_generated_files/spi1.c
+[; ;mcc_generated_files/spi1.c: 34: static const spi1_configuration_t spi1_configuration[] = {
 [v _spi1_configuration `CS1320 ~T0 @X0 -> -> 1 `i `ux s ]
 [i _spi1_configuration
 :U ..
@@ -1311,160 +1311,160 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ..
 ]
-"35
-[; ;mcc_generated_files/spi1.c: 35: void SPI1_Initialize(void)
+"38
+[; ;mcc_generated_files/spi1.c: 38: void SPI1_Initialize(void)
 [v _SPI1_Initialize `(v ~T0 @X0 1 ef ]
-"36
-[; ;mcc_generated_files/spi1.c: 36: {
+"39
+[; ;mcc_generated_files/spi1.c: 39: {
 {
 [e :U _SPI1_Initialize ]
 [f ]
-"38
-[; ;mcc_generated_files/spi1.c: 38:     SSP1CLKPPS = 17;
-[e = _SSP1CLKPPS -> -> 17 `i `uc ]
-"39
-[; ;mcc_generated_files/spi1.c: 39:     SSP1DATPPS = 23;
-[e = _SSP1DATPPS -> -> 23 `i `uc ]
-"40
-[; ;mcc_generated_files/spi1.c: 40:     RC1PPS = 13;
-[e = _RC1PPS -> -> 13 `i `uc ]
 "41
-[; ;mcc_generated_files/spi1.c: 41:     RC2PPS = 14;
+[; ;mcc_generated_files/spi1.c: 41:     SSP1CLKPPS = 17;
+[e = _SSP1CLKPPS -> -> 17 `i `uc ]
+"42
+[; ;mcc_generated_files/spi1.c: 42:     SSP1DATPPS = 23;
+[e = _SSP1DATPPS -> -> 23 `i `uc ]
+"43
+[; ;mcc_generated_files/spi1.c: 43:     RC1PPS = 13;
+[e = _RC1PPS -> -> 13 `i `uc ]
+"44
+[; ;mcc_generated_files/spi1.c: 44:     RC2PPS = 14;
 [e = _RC2PPS -> -> 14 `i `uc ]
-"45
-[; ;mcc_generated_files/spi1.c: 45:     SSP1STAT = 0x40;
-[e = _SSP1STAT -> -> 64 `i `uc ]
-"47
-[; ;mcc_generated_files/spi1.c: 47:     SSP1CON1 = 0x12;
-[e = _SSP1CON1 -> -> 18 `i `uc ]
 "48
-[; ;mcc_generated_files/spi1.c: 48:     SSP1ADD = 0x01;
-[e = _SSP1ADD -> -> 1 `i `uc ]
-"49
-[; ;mcc_generated_files/spi1.c: 49:     TRISCbits.TRISC1 = 0;
-[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+[; ;mcc_generated_files/spi1.c: 48:     SSP1STAT = 0x40;
+[e = _SSP1STAT -> -> 64 `i `uc ]
 "50
-[; ;mcc_generated_files/spi1.c: 50:     SSP1CON1bits.SSPEN = 0;
-[e = . . _SSP1CON1bits 0 2 -> -> 0 `i `uc ]
+[; ;mcc_generated_files/spi1.c: 50:     SSP1CON1 = 0x12;
+[e = _SSP1CON1 -> -> 18 `i `uc ]
 "51
-[; ;mcc_generated_files/spi1.c: 51: }
+[; ;mcc_generated_files/spi1.c: 51:     SSP1ADD = 0x01;
+[e = _SSP1ADD -> -> 1 `i `uc ]
+"52
+[; ;mcc_generated_files/spi1.c: 52:     TRISCbits.TRISC1 = 0;
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+"53
+[; ;mcc_generated_files/spi1.c: 53:     SSP1CON1bits.SSPEN = 0;
+[e = . . _SSP1CON1bits 0 2 -> -> 0 `i `uc ]
+"54
+[; ;mcc_generated_files/spi1.c: 54: }
 [e :UE 1321 ]
 }
-"53
-[; ;mcc_generated_files/spi1.c: 53: void SPI1_Start(void)
+"56
+[; ;mcc_generated_files/spi1.c: 56: void SPI1_Start(void)
 [v _SPI1_Start `(v ~T0 @X0 1 ef ]
-"54
-[; ;mcc_generated_files/spi1.c: 54: {
+"57
+[; ;mcc_generated_files/spi1.c: 57: {
 {
 [e :U _SPI1_Start ]
 [f ]
-"56
-[; ;mcc_generated_files/spi1.c: 56:     if(!SSP1CON1bits.SSPEN)
-[e $ ! ! != -> . . _SSP1CON1bits 0 2 `i -> 0 `i 1323  ]
-"57
-[; ;mcc_generated_files/spi1.c: 57:     {
-{
 "59
-[; ;mcc_generated_files/spi1.c: 59:         SSP1CON1bits.SSPEN = 1;
-[e = . . _SSP1CON1bits 0 2 -> -> 1 `i `uc ]
+[; ;mcc_generated_files/spi1.c: 59:     if(!SSP1CON1bits.SSPEN)
+[e $ ! ! != -> . . _SSP1CON1bits 0 2 `i -> 0 `i 1323  ]
 "60
-[; ;mcc_generated_files/spi1.c: 60:     }
+[; ;mcc_generated_files/spi1.c: 60:     {
+{
+"62
+[; ;mcc_generated_files/spi1.c: 62:         SSP1CON1bits.SSPEN = 1;
+[e = . . _SSP1CON1bits 0 2 -> -> 1 `i `uc ]
+"63
+[; ;mcc_generated_files/spi1.c: 63:     }
 }
 [e :U 1323 ]
-"61
-[; ;mcc_generated_files/spi1.c: 61: }
+"64
+[; ;mcc_generated_files/spi1.c: 64: }
 [e :UE 1322 ]
 }
-"63
-[; ;mcc_generated_files/spi1.c: 63: void SPI1_Close(void)
+"66
+[; ;mcc_generated_files/spi1.c: 66: void SPI1_Close(void)
 [v _SPI1_Close `(v ~T0 @X0 1 ef ]
-"64
-[; ;mcc_generated_files/spi1.c: 64: {
+"67
+[; ;mcc_generated_files/spi1.c: 67: {
 {
 [e :U _SPI1_Close ]
 [f ]
-"66
-[; ;mcc_generated_files/spi1.c: 66:     SSP1CON1bits.SSPEN = 0;
+"69
+[; ;mcc_generated_files/spi1.c: 69:     SSP1CON1bits.SSPEN = 0;
 [e = . . _SSP1CON1bits 0 2 -> -> 0 `i `uc ]
-"68
-[; ;mcc_generated_files/spi1.c: 68: }
+"71
+[; ;mcc_generated_files/spi1.c: 71: }
 [e :UE 1324 ]
 }
-"70
-[; ;mcc_generated_files/spi1.c: 70: void SPI1_WriteByte(uint8_t byte)
+"73
+[; ;mcc_generated_files/spi1.c: 73: void SPI1_WriteByte(uint8_t byte)
 [v _SPI1_WriteByte `(v ~T0 @X0 1 ef1`uc ]
-"71
-[; ;mcc_generated_files/spi1.c: 71: {
+"74
+[; ;mcc_generated_files/spi1.c: 74: {
 {
 [e :U _SPI1_WriteByte ]
-"70
-[; ;mcc_generated_files/spi1.c: 70: void SPI1_WriteByte(uint8_t byte)
-[v _byte `uc ~T0 @X0 1 r1 ]
-"71
-[; ;mcc_generated_files/spi1.c: 71: {
-[f ]
 "73
-[; ;mcc_generated_files/spi1.c: 73:     PORTCbits.RC0 = 0;
+[; ;mcc_generated_files/spi1.c: 73: void SPI1_WriteByte(uint8_t byte)
+[v _byte `uc ~T0 @X0 1 r1 ]
+"74
+[; ;mcc_generated_files/spi1.c: 74: {
+[f ]
+"76
+[; ;mcc_generated_files/spi1.c: 76:     PORTCbits.RC0 = 0;
 [e = . . _PORTCbits 0 0 -> -> 0 `i `uc ]
-"75
-[; ;mcc_generated_files/spi1.c: 75:     _delay((unsigned long)((10)*(64000000/4000000.0)));
+"78
+[; ;mcc_generated_files/spi1.c: 78:     _delay((unsigned long)((10)*(64000000/4000000.0)));
 [e ( __delay (1 -> * -> -> 10 `i `d / -> -> 64000000 `l `d .4000000.0 `ul ]
-"77
-[; ;mcc_generated_files/spi1.c: 77:     SSP1BUF = byte;
+"80
+[; ;mcc_generated_files/spi1.c: 80:     SSP1BUF = byte;
 [e = _SSP1BUF _byte ]
-"79
-[; ;mcc_generated_files/spi1.c: 79:     _delay((unsigned long)((33)*(64000000/4000000.0)));
-[e ( __delay (1 -> * -> -> 33 `i `d / -> -> 64000000 `l `d .4000000.0 `ul ]
-"81
-[; ;mcc_generated_files/spi1.c: 81:     PORTCbits.RC0 = 1;
-[e = . . _PORTCbits 0 0 -> -> 1 `i `uc ]
 "82
-[; ;mcc_generated_files/spi1.c: 82: }
+[; ;mcc_generated_files/spi1.c: 82:     _delay((unsigned long)((33)*(64000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 33 `i `d / -> -> 64000000 `l `d .4000000.0 `ul ]
+"84
+[; ;mcc_generated_files/spi1.c: 84:     PORTCbits.RC0 = 1;
+[e = . . _PORTCbits 0 0 -> -> 1 `i `uc ]
+"85
+[; ;mcc_generated_files/spi1.c: 85: }
 [e :UE 1325 ]
 }
-"84
-[; ;mcc_generated_files/spi1.c: 84: void SPI1_WriteWord(uint16_t word)
+"87
+[; ;mcc_generated_files/spi1.c: 87: void SPI1_WriteWord(uint16_t word)
 [v _SPI1_WriteWord `(v ~T0 @X0 1 ef1`us ]
-"85
-[; ;mcc_generated_files/spi1.c: 85: {
+"88
+[; ;mcc_generated_files/spi1.c: 88: {
 {
 [e :U _SPI1_WriteWord ]
-"84
-[; ;mcc_generated_files/spi1.c: 84: void SPI1_WriteWord(uint16_t word)
-[v _word `us ~T0 @X0 1 r1 ]
-"85
-[; ;mcc_generated_files/spi1.c: 85: {
-[f ]
 "87
-[; ;mcc_generated_files/spi1.c: 87:     uint8_t bytel = word;
+[; ;mcc_generated_files/spi1.c: 87: void SPI1_WriteWord(uint16_t word)
+[v _word `us ~T0 @X0 1 r1 ]
+"88
+[; ;mcc_generated_files/spi1.c: 88: {
+[f ]
+"90
+[; ;mcc_generated_files/spi1.c: 90:     uint8_t bytel = word;
 [v _bytel `uc ~T0 @X0 1 a ]
 [e = _bytel -> _word `uc ]
-"88
-[; ;mcc_generated_files/spi1.c: 88:     uint8_t byteh = word >> 8;
+"91
+[; ;mcc_generated_files/spi1.c: 91:     uint8_t byteh = word >> 8;
 [v _byteh `uc ~T0 @X0 1 a ]
 [e = _byteh -> >> -> _word `ui -> 8 `i `uc ]
-"91
-[; ;mcc_generated_files/spi1.c: 91:     PORTCbits.RC0 = 0;
+"94
+[; ;mcc_generated_files/spi1.c: 94:     PORTCbits.RC0 = 0;
 [e = . . _PORTCbits 0 0 -> -> 0 `i `uc ]
-"93
-[; ;mcc_generated_files/spi1.c: 93:     _delay((unsigned long)((10)*(64000000/4000000.0)));
+"96
+[; ;mcc_generated_files/spi1.c: 96:     _delay((unsigned long)((10)*(64000000/4000000.0)));
 [e ( __delay (1 -> * -> -> 10 `i `d / -> -> 64000000 `l `d .4000000.0 `ul ]
-"95
-[; ;mcc_generated_files/spi1.c: 95:     SSP1BUF = byteh;
+"98
+[; ;mcc_generated_files/spi1.c: 98:     SSP1BUF = byteh;
 [e = _SSP1BUF _byteh ]
-"97
-[; ;mcc_generated_files/spi1.c: 97:     _delay((unsigned long)((33)*(64000000/4000000.0)));
+"100
+[; ;mcc_generated_files/spi1.c: 100:     _delay((unsigned long)((33)*(64000000/4000000.0)));
 [e ( __delay (1 -> * -> -> 33 `i `d / -> -> 64000000 `l `d .4000000.0 `ul ]
-"99
-[; ;mcc_generated_files/spi1.c: 99:     SSP1BUF = bytel;
+"102
+[; ;mcc_generated_files/spi1.c: 102:     SSP1BUF = bytel;
 [e = _SSP1BUF _bytel ]
-"101
-[; ;mcc_generated_files/spi1.c: 101:     _delay((unsigned long)((33)*(64000000/4000000.0)));
-[e ( __delay (1 -> * -> -> 33 `i `d / -> -> 64000000 `l `d .4000000.0 `ul ]
-"103
-[; ;mcc_generated_files/spi1.c: 103:     PORTCbits.RC0 = 1;
-[e = . . _PORTCbits 0 0 -> -> 1 `i `uc ]
 "104
-[; ;mcc_generated_files/spi1.c: 104: }
+[; ;mcc_generated_files/spi1.c: 104:     _delay((unsigned long)((33)*(64000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 33 `i `d / -> -> 64000000 `l `d .4000000.0 `ul ]
+"106
+[; ;mcc_generated_files/spi1.c: 106:     PORTCbits.RC0 = 1;
+[e = . . _PORTCbits 0 0 -> -> 1 `i `uc ]
+"107
+[; ;mcc_generated_files/spi1.c: 107: }
 [e :UE 1326 ]
 }

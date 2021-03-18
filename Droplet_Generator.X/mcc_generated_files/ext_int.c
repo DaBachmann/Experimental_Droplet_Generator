@@ -34,6 +34,7 @@ extern volatile unsigned int break_duration;
 extern volatile unsigned int temp_break_duration;
 extern volatile unsigned int packages;
 
+
 /**
   Section: external Interrupt APIs
 */
@@ -67,7 +68,7 @@ void EXT_INT_Initialize(void)
     // Set the external interrupt edge detect
     EXT_INT0_risingEdgeSet();    
     // Set Default Interrupt Handler
-    EXT_INT0_InterruptEnable();      
+    //EXT_INT0_InterruptEnable();      
 
 }
 /**

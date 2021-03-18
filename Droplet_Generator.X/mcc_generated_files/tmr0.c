@@ -70,8 +70,8 @@ void TMR0_Initialize(void)
 void TMR0_StartTimer(void)
 {
     //start Timer by falling edge
-    while(PORTAbits.RA7 == 0);
-    while(PORTAbits.RA7 == 1);
+    while(PORTAbits.RA5 == 0);
+    while(PORTAbits.RA5 == 1);
     
     // Start the Timer by writing to TMR0ON bit
     T0CON0bits.T0EN = 1;

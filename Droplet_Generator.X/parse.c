@@ -35,6 +35,7 @@ extern volatile unsigned int temp_packages;
 extern volatile unsigned int break_duration;
 extern volatile unsigned int temp_break_duration;
 extern volatile unsigned int packages;
+extern volatile unsigned int state;
 
 /**
     Section: File Variables 
@@ -231,6 +232,27 @@ void Parse_Data(){
         EUSART_Write_String(output);
         output[0] = '\0';
         rx_data_end = 0;
+        
+    //data parsing for "t" command  
+    }else if(rx_data[0] == 'T' || rx_data[0] == 't')
+    {
+        //Disable UART
+        PIE3bits.RCIE = 0;
+        PIE3bits.TXIE = 0;
+        //Close SPI
+        SPI1_Close();
+        //clear Output
+        output[0] = '\0';
+        rx_data_end = 0;
+        //change state to PULSE
+        state = PULSE;
+        //setting copies
+        temp_packages = packages;
+        temp_break_duration = break_duration;
+        //reload frequency counter
+        TMR0_Reload();
+        //start frequency counter
+        TMR0_StartTimer();
         
     //unknown command    
     }else

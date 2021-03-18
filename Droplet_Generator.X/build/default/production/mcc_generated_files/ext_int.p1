@@ -44,29 +44,29 @@ Version 4.0 HI-TECH Software Intermediate Code
 "3087
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h: 3087: extern volatile PIE3bits_t PIE3bits __attribute__((address(0xEC5)));
 [v _PIE3bits `VS187 ~T0 @X0 0 e@3781 ]
-"111 mcc_generated_files/spi1.h
-[; ;mcc_generated_files/spi1.h: 111: void SPI1_Close(void);
+"114 mcc_generated_files/spi1.h
+[; ;mcc_generated_files/spi1.h: 114: void SPI1_Close(void);
 [v _SPI1_Close `(v ~T0 @X0 0 ef ]
-"28 mcc_generated_files/ext_int.c
-[; ;mcc_generated_files/ext_int.c: 28: extern volatile unsigned int state;
+"31 mcc_generated_files/ext_int.c
+[; ;mcc_generated_files/ext_int.c: 31: extern volatile unsigned int state;
 [v _state `Vui ~T0 @X0 0 e ]
-"29
-[; ;mcc_generated_files/ext_int.c: 29: extern volatile unsigned int temp_packages;
-[v _temp_packages `Vui ~T0 @X0 0 e ]
 "32
-[; ;mcc_generated_files/ext_int.c: 32: extern volatile unsigned int packages;
+[; ;mcc_generated_files/ext_int.c: 32: extern volatile unsigned int temp_packages;
+[v _temp_packages `Vui ~T0 @X0 0 e ]
+"35
+[; ;mcc_generated_files/ext_int.c: 35: extern volatile unsigned int packages;
 [v _packages `Vui ~T0 @X0 0 e ]
-"31
-[; ;mcc_generated_files/ext_int.c: 31: extern volatile unsigned int temp_break_duration;
+"34
+[; ;mcc_generated_files/ext_int.c: 34: extern volatile unsigned int temp_break_duration;
 [v _temp_break_duration `Vui ~T0 @X0 0 e ]
-"30
-[; ;mcc_generated_files/ext_int.c: 30: extern volatile unsigned int break_duration;
+"33
+[; ;mcc_generated_files/ext_int.c: 33: extern volatile unsigned int break_duration;
 [v _break_duration `Vui ~T0 @X0 0 e ]
-"198 mcc_generated_files/tmr0.h
-[; ;mcc_generated_files/tmr0.h: 198: void TMR0_Reload(void);
+"201 mcc_generated_files/tmr0.h
+[; ;mcc_generated_files/tmr0.h: 201: void TMR0_Reload(void);
 [v _TMR0_Reload `(v ~T0 @X0 0 ef ]
-"91
-[; ;mcc_generated_files/tmr0.h: 91: void TMR0_StartTimer(void);
+"94
+[; ;mcc_generated_files/tmr0.h: 94: void TMR0_StartTimer(void);
 [v _TMR0_StartTimer `(v ~T0 @X0 0 ef ]
 "24785 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h: 24785:     struct {
@@ -1305,66 +1305,63 @@ Version 4.0 HI-TECH Software Intermediate Code
 "25228
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h: 25228: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-"37 mcc_generated_files/ext_int.c
-[; ;mcc_generated_files/ext_int.c: 37: void INT0_ISR(void)
+"41 mcc_generated_files/ext_int.c
+[; ;mcc_generated_files/ext_int.c: 41: void INT0_ISR(void)
 [v _INT0_ISR `(v ~T0 @X0 1 ef ]
-"38
-[; ;mcc_generated_files/ext_int.c: 38: {
+"42
+[; ;mcc_generated_files/ext_int.c: 42: {
 {
 [e :U _INT0_ISR ]
 [f ]
-"40
-[; ;mcc_generated_files/ext_int.c: 40:     (PIR0bits.INT0IF = 0);
-[e = . . _PIR0bits 0 0 -> -> 0 `i `uc ]
-"42
-[; ;mcc_generated_files/ext_int.c: 42:     (PIE0bits.INT0IE = 0);
-[e = . . _PIE0bits 0 0 -> -> 0 `i `uc ]
 "44
-[; ;mcc_generated_files/ext_int.c: 44:     PIE3bits.RCIE = 0;
+[; ;mcc_generated_files/ext_int.c: 44:     (PIR0bits.INT0IF = 0);
+[e = . . _PIR0bits 0 0 -> -> 0 `i `uc ]
+"46
+[; ;mcc_generated_files/ext_int.c: 46:     (PIE0bits.INT0IE = 0);
+[e = . . _PIE0bits 0 0 -> -> 0 `i `uc ]
+"48
+[; ;mcc_generated_files/ext_int.c: 48:     PIE3bits.RCIE = 0;
 [e = . . _PIE3bits 1 4 -> -> 0 `i `uc ]
-"45
-[; ;mcc_generated_files/ext_int.c: 45:     PIE3bits.TXIE = 0;
-[e = . . _PIE3bits 1 3 -> -> 0 `i `uc ]
-"47
-[; ;mcc_generated_files/ext_int.c: 47:     SPI1_Close();
-[e ( _SPI1_Close ..  ]
 "49
-[; ;mcc_generated_files/ext_int.c: 49:     state = 2;
-[e = _state -> -> 2 `i `ui ]
+[; ;mcc_generated_files/ext_int.c: 49:     PIE3bits.TXIE = 0;
+[e = . . _PIE3bits 1 3 -> -> 0 `i `uc ]
 "51
-[; ;mcc_generated_files/ext_int.c: 51:     temp_packages = packages;
+[; ;mcc_generated_files/ext_int.c: 51:     SPI1_Close();
+[e ( _SPI1_Close ..  ]
+"53
+[; ;mcc_generated_files/ext_int.c: 53:     state = 2;
+[e = _state -> -> 2 `i `ui ]
+"55
+[; ;mcc_generated_files/ext_int.c: 55:     temp_packages = packages;
 [e = _temp_packages _packages ]
-"52
-[; ;mcc_generated_files/ext_int.c: 52:     temp_break_duration = break_duration;
-[e = _temp_break_duration _break_duration ]
-"54
-[; ;mcc_generated_files/ext_int.c: 54:     TMR0_Reload();
-[e ( _TMR0_Reload ..  ]
 "56
-[; ;mcc_generated_files/ext_int.c: 56:     TMR0_StartTimer();
+[; ;mcc_generated_files/ext_int.c: 56:     temp_break_duration = break_duration;
+[e = _temp_break_duration _break_duration ]
+"58
+[; ;mcc_generated_files/ext_int.c: 58:     TMR0_Reload();
+[e ( _TMR0_Reload ..  ]
+"60
+[; ;mcc_generated_files/ext_int.c: 60:     TMR0_StartTimer();
 [e ( _TMR0_StartTimer ..  ]
-"57
-[; ;mcc_generated_files/ext_int.c: 57: }
+"61
+[; ;mcc_generated_files/ext_int.c: 61: }
 [e :UE 1320 ]
 }
-"59
-[; ;mcc_generated_files/ext_int.c: 59: void EXT_INT_Initialize(void)
+"63
+[; ;mcc_generated_files/ext_int.c: 63: void EXT_INT_Initialize(void)
 [v _EXT_INT_Initialize `(v ~T0 @X0 1 ef ]
-"60
-[; ;mcc_generated_files/ext_int.c: 60: {
+"64
+[; ;mcc_generated_files/ext_int.c: 64: {
 {
 [e :U _EXT_INT_Initialize ]
 [f ]
-"63
-[; ;mcc_generated_files/ext_int.c: 63:     (PIR0bits.INT0IF = 0);
-[e = . . _PIR0bits 0 0 -> -> 0 `i `uc ]
-"65
-[; ;mcc_generated_files/ext_int.c: 65:     (INTCONbits.INT0EDG = 1);
-[e = . . _INTCONbits 0 0 -> -> 1 `i `uc ]
 "67
-[; ;mcc_generated_files/ext_int.c: 67:     (PIE0bits.INT0IE = 1);
-[e = . . _PIE0bits 0 0 -> -> 1 `i `uc ]
+[; ;mcc_generated_files/ext_int.c: 67:     (PIR0bits.INT0IF = 0);
+[e = . . _PIR0bits 0 0 -> -> 0 `i `uc ]
 "69
-[; ;mcc_generated_files/ext_int.c: 69: }
+[; ;mcc_generated_files/ext_int.c: 69:     (INTCONbits.INT0EDG = 1);
+[e = . . _INTCONbits 0 0 -> -> 1 `i `uc ]
+"73
+[; ;mcc_generated_files/ext_int.c: 73: }
 [e :UE 1321 ]
 }

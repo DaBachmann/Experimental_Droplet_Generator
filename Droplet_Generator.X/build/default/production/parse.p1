@@ -1,45 +1,80 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"121 ./mcc_generated_files/eusart.h
-[; ;./mcc_generated_files/eusart.h: 121: void EUSART_Write_String(char data[]);
+"124 ./mcc_generated_files/eusart.h
+[; ;./mcc_generated_files/eusart.h: 124: void EUSART_Write_String(char data[]);
 [v _EUSART_Write_String `(v ~T0 @X0 0 ef1`*uc ]
-"26 parse.c
-[; ;parse.c: 26: extern volatile char rx_data[20];
+"29 parse.c
+[; ;parse.c: 29: extern volatile char rx_data[20];
 [v _rx_data `Vuc ~T0 @X0 -> 0 `x e ]
 "115 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\c99\stdio.h
 [v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
-"27 parse.c
-[; ;parse.c: 27: extern volatile uint8_t rx_data_end;
+"30 parse.c
+[; ;parse.c: 30: extern volatile uint8_t rx_data_end;
 [v _rx_data_end `Vuc ~T0 @X0 0 e ]
 "24 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\c99\stdlib.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\c99\stdlib.h: 24: long atol (const char *);
 [v _atol `(l ~T0 @X0 0 ef1`*Cuc ]
-"28 parse.c
-[; ;parse.c: 28: extern long frequency;
+"31 parse.c
+[; ;parse.c: 31: extern long frequency;
 [v _frequency `l ~T0 @X0 0 e ]
-"62 ./mcc_generated_files/../ad9833.h
-[; ;./mcc_generated_files/../ad9833.h: 62: void AD9833_SetFrequency(long frequency);
+"65 ./mcc_generated_files/../ad9833.h
+[; ;./mcc_generated_files/../ad9833.h: 65: void AD9833_SetFrequency(long frequency);
 [v _AD9833_SetFrequency `(v ~T0 @X0 0 ef1`l ]
-"30 parse.c
-[; ;parse.c: 30: extern volatile long temp_cycle;
+"33 parse.c
+[; ;parse.c: 33: extern volatile long temp_cycle;
 [v _temp_cycle `Vl ~T0 @X0 0 e ]
-"29
-[; ;parse.c: 29: extern volatile long cycle;
+"32
+[; ;parse.c: 32: extern volatile long cycle;
 [v _cycle `Vl ~T0 @X0 0 e ]
-"33
-[; ;parse.c: 33: extern volatile unsigned int temp_break_duration;
+"36
+[; ;parse.c: 36: extern volatile unsigned int temp_break_duration;
 [v _temp_break_duration `Vui ~T0 @X0 0 e ]
 "23 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\c99\stdlib.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\c99\stdlib.h: 23: int atoi (const char *);
 [v _atoi `(i ~T0 @X0 0 ef1`*Cuc ]
-"32 parse.c
-[; ;parse.c: 32: extern volatile unsigned int break_duration;
+"35 parse.c
+[; ;parse.c: 35: extern volatile unsigned int break_duration;
 [v _break_duration `Vui ~T0 @X0 0 e ]
-"31
-[; ;parse.c: 31: extern volatile unsigned int temp_packages;
-[v _temp_packages `Vui ~T0 @X0 0 e ]
 "34
-[; ;parse.c: 34: extern volatile unsigned int packages;
+[; ;parse.c: 34: extern volatile unsigned int temp_packages;
+[v _temp_packages `Vui ~T0 @X0 0 e ]
+"37
+[; ;parse.c: 37: extern volatile unsigned int packages;
 [v _packages `Vui ~T0 @X0 0 e ]
+"3060 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h: 3060:     struct {
+[s S188 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S188 . SSP1IE BCL1IE . TX1IE RC1IE ]
+"3067
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h: 3067:     struct {
+[s S189 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S189 . SSPIE BCLIE . TXIE RCIE ]
+"3074
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h: 3074:     struct {
+[s S190 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S190 . RXB0IE RXB1IE . TXB2IE ]
+"3080
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h: 3080:     struct {
+[s S191 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S191 . . RXBNIE . TXBNIE ]
+"3059
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h: 3059: typedef union {
+[u S187 `S188 1 `S189 1 `S190 1 `S191 1 ]
+[n S187 . . . . . ]
+"3087
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h: 3087: extern volatile PIE3bits_t PIE3bits __attribute__((address(0xEC5)));
+[v _PIE3bits `VS187 ~T0 @X0 0 e@3781 ]
+"114 ./mcc_generated_files/spi1.h
+[; ;./mcc_generated_files/spi1.h: 114: void SPI1_Close(void);
+[v _SPI1_Close `(v ~T0 @X0 0 ef ]
+"38 parse.c
+[; ;parse.c: 38: extern volatile unsigned int state;
+[v _state `Vui ~T0 @X0 0 e ]
+"201 ./mcc_generated_files/tmr0.h
+[; ;./mcc_generated_files/tmr0.h: 201: void TMR0_Reload(void);
+[v _TMR0_Reload `(v ~T0 @X0 0 ef ]
+"94
+[; ;./mcc_generated_files/tmr0.h: 94: void TMR0_StartTimer(void);
+[v _TMR0_StartTimer `(v ~T0 @X0 0 ef ]
 "54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h: 54: __asm("PPSLOCK equ 0EA0h");
 [; <" PPSLOCK equ 0EA0h ;# ">
@@ -1258,439 +1293,479 @@ Version 4.0 HI-TECH Software Intermediate Code
 "25228
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f25k40.h: 25228: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-"40 parse.c
-[; ;parse.c: 40: volatile char output[50];
+"44 parse.c
+[; ;parse.c: 44: volatile char output[50];
 [v _output `Vuc ~T0 @X0 -> 50 `i e ]
-"42
-[; ;parse.c: 42: long temp_frequency;
+"46
+[; ;parse.c: 46: long temp_frequency;
 [v _temp_frequency `l ~T0 @X0 1 e ]
-"47
-[; ;parse.c: 47: void Parse_Data(){
+"51
+[; ;parse.c: 51: void Parse_Data(){
 [v _Parse_Data `(v ~T0 @X0 1 ef ]
 {
 [e :U _Parse_Data ]
 [f ]
-"50
-[; ;parse.c: 50:     EUSART_Write_String(rx_data);
+"54
+[; ;parse.c: 54:     EUSART_Write_String(rx_data);
 [e ( _EUSART_Write_String (1 -> &U _rx_data `*uc ]
-"53
-[; ;parse.c: 53:     for(int i = 1; rx_data[i] != '\0'; i++)
+"57
+[; ;parse.c: 57:     for(int i = 1; rx_data[i] != '\0'; i++)
 {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 1 `i ]
 [e $U 1324  ]
 [e :U 1321 ]
-"54
-[; ;parse.c: 54:     {
-{
-"55
-[; ;parse.c: 55:         if((rx_data[i] < '0' && rx_data[i] > ' ') || rx_data[i] > '9' || rx_data[i] < ' ')
-[e $ ! || || && < -> *U + &U _rx_data * -> -> _i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 48 `ui > -> *U + &U _rx_data * -> -> _i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 32 `ui > -> *U + &U _rx_data * -> -> _i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 57 `ui < -> *U + &U _rx_data * -> -> _i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 32 `ui 1325  ]
-"56
-[; ;parse.c: 56:         {
-{
 "58
-[; ;parse.c: 58:             sprintf(output, "Unexpected Character %c on Position %i", rx_data[i], i+1);
-[e ( _sprintf (1 , , (. , -> &U _output `*uc :s 1C -> *U + &U _rx_data * -> -> _i `ui `ux -> -> # *U &U _rx_data `ui `ux `i + _i -> 1 `i ]
+[; ;parse.c: 58:     {
+{
 "59
-[; ;parse.c: 59:             EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+[; ;parse.c: 59:         if((rx_data[i] < '0' && rx_data[i] > ' ') || rx_data[i] > '9' || rx_data[i] < ' ')
+[e $ ! || || && < -> *U + &U _rx_data * -> -> _i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 48 `ui > -> *U + &U _rx_data * -> -> _i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 32 `ui > -> *U + &U _rx_data * -> -> _i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 57 `ui < -> *U + &U _rx_data * -> -> _i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 32 `ui 1325  ]
 "60
-[; ;parse.c: 60:             output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"61
-[; ;parse.c: 61:             rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+[; ;parse.c: 60:         {
+{
 "62
-[; ;parse.c: 62:             return;
-[e $UE 1320  ]
+[; ;parse.c: 62:             sprintf(output, "Unexpected Character %c on Position %i", rx_data[i], i+1);
+[e ( _sprintf (1 , , (. , -> &U _output `*uc :s 1C -> *U + &U _rx_data * -> -> _i `ui `ux -> -> # *U &U _rx_data `ui `ux `i + _i -> 1 `i ]
 "63
-[; ;parse.c: 63:         }
+[; ;parse.c: 63:             EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+"64
+[; ;parse.c: 64:             output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"65
+[; ;parse.c: 65:             rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"66
+[; ;parse.c: 66:             return;
+[e $UE 1320  ]
+"67
+[; ;parse.c: 67:         }
 }
 [e :U 1325 ]
-"64
-[; ;parse.c: 64:     }
+"68
+[; ;parse.c: 68:     }
 }
 [e ++ _i -> 1 `i ]
 [e :U 1324 ]
 [e $ != -> *U + &U _rx_data * -> -> _i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 0 `ui 1321  ]
 [e :U 1322 ]
 }
-"67
-[; ;parse.c: 67:     if(rx_data[0] == 'f' || rx_data[0] == 'F')
+"71
+[; ;parse.c: 71:     if(rx_data[0] == 'f' || rx_data[0] == 'F')
 [e $ ! || == -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 102 `ui == -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 70 `ui 1326  ]
-"68
-[; ;parse.c: 68:     {
+"72
+[; ;parse.c: 72:     {
 {
-"70
-[; ;parse.c: 70:         rx_data[0] = ' ';
+"74
+[; ;parse.c: 74:         rx_data[0] = ' ';
 [e = *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux -> -> 32 `ui `uc ]
-"73
-[; ;parse.c: 73:         temp_frequency = atol(rx_data);
-[e = _temp_frequency ( _atol (1 -> &U _rx_data `*Cuc ]
-"76
-[; ;parse.c: 76:         if(temp_frequency < 1000000)
-[e $ ! < _temp_frequency -> 1000000 `l 1327  ]
 "77
-[; ;parse.c: 77:         {
-{
-"79
-[; ;parse.c: 79:             sprintf(output, "Error! Minimum Frequency 1000000 Hz");
-[e ( _sprintf (1 , -> &U _output `*uc :s 2C ]
+[; ;parse.c: 77:         temp_frequency = atol(rx_data);
+[e = _temp_frequency ( _atol (1 -> &U _rx_data `*Cuc ]
 "80
-[; ;parse.c: 80:             EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+[; ;parse.c: 80:         if(temp_frequency < 1000000)
+[e $ ! < _temp_frequency -> 1000000 `l 1327  ]
 "81
-[; ;parse.c: 81:             output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"82
-[; ;parse.c: 82:             rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+[; ;parse.c: 81:         {
+{
+"83
+[; ;parse.c: 83:             sprintf(output, "Error! Minimum Frequency 1000000 Hz");
+[e ( _sprintf (1 , -> &U _output `*uc :s 2C ]
+"84
+[; ;parse.c: 84:             EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
 "85
-[; ;parse.c: 85:         }else if(temp_frequency > 5000000)
+[; ;parse.c: 85:             output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"86
+[; ;parse.c: 86:             rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"89
+[; ;parse.c: 89:         }else if(temp_frequency > 5000000)
 }
 [e $U 1328  ]
 [e :U 1327 ]
 [e $ ! > _temp_frequency -> 5000000 `l 1329  ]
-"86
-[; ;parse.c: 86:         {
-{
-"88
-[; ;parse.c: 88:             sprintf(output, "Error! Maximum Frequency 5000000 Hz");
-[e ( _sprintf (1 , -> &U _output `*uc :s 3C ]
-"89
-[; ;parse.c: 89:             EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
 "90
-[; ;parse.c: 90:             output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"91
-[; ;parse.c: 91:             rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+[; ;parse.c: 90:         {
+{
 "92
-[; ;parse.c: 92:         }else
+[; ;parse.c: 92:             sprintf(output, "Error! Maximum Frequency 5000000 Hz");
+[e ( _sprintf (1 , -> &U _output `*uc :s 3C ]
+"93
+[; ;parse.c: 93:             EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+"94
+[; ;parse.c: 94:             output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"95
+[; ;parse.c: 95:             rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"96
+[; ;parse.c: 96:         }else
 }
 [e $U 1330  ]
 [e :U 1329 ]
-"93
-[; ;parse.c: 93:         {
-{
-"95
-[; ;parse.c: 95:             frequency = temp_frequency;
-[e = _frequency _temp_frequency ]
 "97
-[; ;parse.c: 97:             AD9833_SetFrequency(frequency);
-[e ( _AD9833_SetFrequency (1 _frequency ]
-"100
-[; ;parse.c: 100:             sprintf(output, "Frequency changed to %ld Hz", frequency);
-[e ( _sprintf (1 , (. , -> &U _output `*uc :s 4C _frequency ]
+[; ;parse.c: 97:         {
+{
+"99
+[; ;parse.c: 99:             frequency = temp_frequency;
+[e = _frequency _temp_frequency ]
 "101
-[; ;parse.c: 101:             EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
-"102
-[; ;parse.c: 102:             output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"103
-[; ;parse.c: 103:             rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+[; ;parse.c: 101:             AD9833_SetFrequency(frequency);
+[e ( _AD9833_SetFrequency (1 _frequency ]
 "104
-[; ;parse.c: 104:         }
+[; ;parse.c: 104:             sprintf(output, "Frequency changed to %ld Hz", frequency);
+[e ( _sprintf (1 , (. , -> &U _output `*uc :s 4C _frequency ]
+"105
+[; ;parse.c: 105:             EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+"106
+[; ;parse.c: 106:             output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"107
+[; ;parse.c: 107:             rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"108
+[; ;parse.c: 108:         }
 }
 [e :U 1330 ]
 [e :U 1328 ]
-"107
-[; ;parse.c: 107:     }else if(rx_data[0] == 'c' || rx_data[0] == 'C')
+"111
+[; ;parse.c: 111:     }else if(rx_data[0] == 'c' || rx_data[0] == 'C')
 }
 [e $U 1331  ]
 [e :U 1326 ]
 [e $ ! || == -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 99 `ui == -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 67 `ui 1332  ]
-"108
-[; ;parse.c: 108:     {
+"112
+[; ;parse.c: 112:     {
 {
-"110
-[; ;parse.c: 110:         rx_data[0] = ' ';
+"114
+[; ;parse.c: 114:         rx_data[0] = ' ';
 [e = *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux -> -> 32 `ui `uc ]
-"113
-[; ;parse.c: 113:         temp_cycle = atol(rx_data);
-[e = _temp_cycle ( _atol (1 -> &U _rx_data `*Cuc ]
-"116
-[; ;parse.c: 116:         if(temp_cycle < 2)
-[e $ ! < _temp_cycle -> -> 2 `i `l 1333  ]
 "117
-[; ;parse.c: 117:         {
-{
-"119
-[; ;parse.c: 119:             sprintf(output, "Error! Minimum Cycle count 2");
-[e ( _sprintf (1 , -> &U _output `*uc :s 5C ]
+[; ;parse.c: 117:         temp_cycle = atol(rx_data);
+[e = _temp_cycle ( _atol (1 -> &U _rx_data `*Cuc ]
 "120
-[; ;parse.c: 120:             EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+[; ;parse.c: 120:         if(temp_cycle < 2)
+[e $ ! < _temp_cycle -> -> 2 `i `l 1333  ]
 "121
-[; ;parse.c: 121:             output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"122
-[; ;parse.c: 122:             rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+[; ;parse.c: 121:         {
+{
+"123
+[; ;parse.c: 123:             sprintf(output, "Error! Minimum Cycle count 2");
+[e ( _sprintf (1 , -> &U _output `*uc :s 5C ]
+"124
+[; ;parse.c: 124:             EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
 "125
-[; ;parse.c: 125:         }else if(temp_cycle > 32000)
+[; ;parse.c: 125:             output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"126
+[; ;parse.c: 126:             rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"129
+[; ;parse.c: 129:         }else if(temp_cycle > 32000)
 }
 [e $U 1334  ]
 [e :U 1333 ]
 [e $ ! > _temp_cycle -> -> 32000 `i `l 1335  ]
-"126
-[; ;parse.c: 126:         {
-{
-"128
-[; ;parse.c: 128:             sprintf(output, "Error! Maximum Cycle count 32000");
-[e ( _sprintf (1 , -> &U _output `*uc :s 6C ]
-"129
-[; ;parse.c: 129:             EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
 "130
-[; ;parse.c: 130:             output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"131
-[; ;parse.c: 131:             rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+[; ;parse.c: 130:         {
+{
 "132
-[; ;parse.c: 132:         }else
+[; ;parse.c: 132:             sprintf(output, "Error! Maximum Cycle count 32000");
+[e ( _sprintf (1 , -> &U _output `*uc :s 6C ]
+"133
+[; ;parse.c: 133:             EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+"134
+[; ;parse.c: 134:             output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"135
+[; ;parse.c: 135:             rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"136
+[; ;parse.c: 136:         }else
 }
 [e $U 1336  ]
 [e :U 1335 ]
-"133
-[; ;parse.c: 133:         {
+"137
+[; ;parse.c: 137:         {
 {
-"135
-[; ;parse.c: 135:             cycle = temp_cycle;
-[e = _cycle _temp_cycle ]
-"138
-[; ;parse.c: 138:             sprintf(output, "Cycle changed to %ld Cycles", cycle);
-[e ( _sprintf (1 , (. , -> &U _output `*uc :s 7C _cycle ]
 "139
-[; ;parse.c: 139:             EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
-"140
-[; ;parse.c: 140:             output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"141
-[; ;parse.c: 141:             rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+[; ;parse.c: 139:             cycle = temp_cycle;
+[e = _cycle _temp_cycle ]
 "142
-[; ;parse.c: 142:         }
+[; ;parse.c: 142:             sprintf(output, "Cycle changed to %ld Cycles", cycle);
+[e ( _sprintf (1 , (. , -> &U _output `*uc :s 7C _cycle ]
+"143
+[; ;parse.c: 143:             EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+"144
+[; ;parse.c: 144:             output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"145
+[; ;parse.c: 145:             rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"146
+[; ;parse.c: 146:         }
 }
 [e :U 1336 ]
 [e :U 1334 ]
-"145
-[; ;parse.c: 145:     }else if(rx_data[0] == 'B' || rx_data[0] == 'b')
+"149
+[; ;parse.c: 149:     }else if(rx_data[0] == 'B' || rx_data[0] == 'b')
 }
 [e $U 1337  ]
 [e :U 1332 ]
 [e $ ! || == -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 66 `ui == -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 98 `ui 1338  ]
-"146
-[; ;parse.c: 146:     {
+"150
+[; ;parse.c: 150:     {
 {
-"148
-[; ;parse.c: 148:         rx_data[0] = ' ';
+"152
+[; ;parse.c: 152:         rx_data[0] = ' ';
 [e = *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux -> -> 32 `ui `uc ]
-"151
-[; ;parse.c: 151:         temp_break_duration = atoi(rx_data);
-[e = _temp_break_duration -> ( _atoi (1 -> &U _rx_data `*Cuc `ui ]
-"154
-[; ;parse.c: 154:         if(temp_break_duration > 256)
-[e $ ! > _temp_break_duration -> -> 256 `i `ui 1339  ]
 "155
-[; ;parse.c: 155:         {
-{
-"157
-[; ;parse.c: 157:             sprintf(output, "Error! Maximum Break Duration 256 ms");
-[e ( _sprintf (1 , -> &U _output `*uc :s 8C ]
+[; ;parse.c: 155:         temp_break_duration = atoi(rx_data);
+[e = _temp_break_duration -> ( _atoi (1 -> &U _rx_data `*Cuc `ui ]
 "158
-[; ;parse.c: 158:             EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+[; ;parse.c: 158:         if(temp_break_duration > 256)
+[e $ ! > _temp_break_duration -> -> 256 `i `ui 1339  ]
 "159
-[; ;parse.c: 159:             output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"160
-[; ;parse.c: 160:             rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+[; ;parse.c: 159:         {
+{
 "161
-[; ;parse.c: 161:         }else
+[; ;parse.c: 161:             sprintf(output, "Error! Maximum Break Duration 256 ms");
+[e ( _sprintf (1 , -> &U _output `*uc :s 8C ]
+"162
+[; ;parse.c: 162:             EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+"163
+[; ;parse.c: 163:             output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"164
+[; ;parse.c: 164:             rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"165
+[; ;parse.c: 165:         }else
 }
 [e $U 1340  ]
 [e :U 1339 ]
-"162
-[; ;parse.c: 162:         {
+"166
+[; ;parse.c: 166:         {
 {
-"164
-[; ;parse.c: 164:             break_duration = temp_break_duration;
-[e = _break_duration _temp_break_duration ]
-"167
-[; ;parse.c: 167:             sprintf(output, "Break Duration changed to %u ms", break_duration);
-[e ( _sprintf (1 , (. , -> &U _output `*uc :s 9C _break_duration ]
 "168
-[; ;parse.c: 168:             EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
-"169
-[; ;parse.c: 169:             output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"170
-[; ;parse.c: 170:             rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+[; ;parse.c: 168:             break_duration = temp_break_duration;
+[e = _break_duration _temp_break_duration ]
 "171
-[; ;parse.c: 171:         }
+[; ;parse.c: 171:             sprintf(output, "Break Duration changed to %u ms", break_duration);
+[e ( _sprintf (1 , (. , -> &U _output `*uc :s 9C _break_duration ]
+"172
+[; ;parse.c: 172:             EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+"173
+[; ;parse.c: 173:             output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"174
+[; ;parse.c: 174:             rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"175
+[; ;parse.c: 175:         }
 }
 [e :U 1340 ]
-"174
-[; ;parse.c: 174:     }else if(rx_data[0] == 'N' || rx_data[0] == 'n')
+"178
+[; ;parse.c: 178:     }else if(rx_data[0] == 'N' || rx_data[0] == 'n')
 }
 [e $U 1341  ]
 [e :U 1338 ]
 [e $ ! || == -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 78 `ui == -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 110 `ui 1342  ]
-"175
-[; ;parse.c: 175:     {
+"179
+[; ;parse.c: 179:     {
 {
-"177
-[; ;parse.c: 177:         rx_data[0] = ' ';
+"181
+[; ;parse.c: 181:         rx_data[0] = ' ';
 [e = *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux -> -> 32 `ui `uc ]
-"180
-[; ;parse.c: 180:         temp_packages = atoi(rx_data);
-[e = _temp_packages -> ( _atoi (1 -> &U _rx_data `*Cuc `ui ]
-"183
-[; ;parse.c: 183:         if(temp_packages < 1)
-[e $ ! < _temp_packages -> -> 1 `i `ui 1343  ]
 "184
-[; ;parse.c: 184:         {
-{
-"186
-[; ;parse.c: 186:             sprintf(output, "Error! Minimum Packages count 1");
-[e ( _sprintf (1 , -> &U _output `*uc :s 10C ]
+[; ;parse.c: 184:         temp_packages = atoi(rx_data);
+[e = _temp_packages -> ( _atoi (1 -> &U _rx_data `*Cuc `ui ]
 "187
-[; ;parse.c: 187:             EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+[; ;parse.c: 187:         if(temp_packages < 1)
+[e $ ! < _temp_packages -> -> 1 `i `ui 1343  ]
 "188
-[; ;parse.c: 188:             output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"189
-[; ;parse.c: 189:             rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+[; ;parse.c: 188:         {
+{
+"190
+[; ;parse.c: 190:             sprintf(output, "Error! Minimum Packages count 1");
+[e ( _sprintf (1 , -> &U _output `*uc :s 10C ]
+"191
+[; ;parse.c: 191:             EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
 "192
-[; ;parse.c: 192:         }else if(temp_packages > 256)
+[; ;parse.c: 192:             output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"193
+[; ;parse.c: 193:             rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"196
+[; ;parse.c: 196:         }else if(temp_packages > 256)
 }
 [e $U 1344  ]
 [e :U 1343 ]
 [e $ ! > _temp_packages -> -> 256 `i `ui 1345  ]
-"193
-[; ;parse.c: 193:         {
-{
-"195
-[; ;parse.c: 195:             sprintf(output, "Error! Maximum Packages count 256");
-[e ( _sprintf (1 , -> &U _output `*uc :s 11C ]
-"196
-[; ;parse.c: 196:             EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
 "197
-[; ;parse.c: 197:             output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"198
-[; ;parse.c: 198:             rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+[; ;parse.c: 197:         {
+{
 "199
-[; ;parse.c: 199:         }else
+[; ;parse.c: 199:             sprintf(output, "Error! Maximum Packages count 256");
+[e ( _sprintf (1 , -> &U _output `*uc :s 11C ]
+"200
+[; ;parse.c: 200:             EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+"201
+[; ;parse.c: 201:             output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"202
+[; ;parse.c: 202:             rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"203
+[; ;parse.c: 203:         }else
 }
 [e $U 1346  ]
 [e :U 1345 ]
-"200
-[; ;parse.c: 200:         {
+"204
+[; ;parse.c: 204:         {
 {
-"202
-[; ;parse.c: 202:             packages = temp_packages;
-[e = _packages _temp_packages ]
-"205
-[; ;parse.c: 205:             sprintf(output, "Number of Packages changed to %u Packages", packages);
-[e ( _sprintf (1 , (. , -> &U _output `*uc :s 12C _packages ]
 "206
-[; ;parse.c: 206:             EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
-"207
-[; ;parse.c: 207:             output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"208
-[; ;parse.c: 208:             rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+[; ;parse.c: 206:             packages = temp_packages;
+[e = _packages _temp_packages ]
 "209
-[; ;parse.c: 209:         }
+[; ;parse.c: 209:             sprintf(output, "Number of Packages changed to %u Packages", packages);
+[e ( _sprintf (1 , (. , -> &U _output `*uc :s 12C _packages ]
+"210
+[; ;parse.c: 210:             EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+"211
+[; ;parse.c: 211:             output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"212
+[; ;parse.c: 212:             rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"213
+[; ;parse.c: 213:         }
 }
 [e :U 1346 ]
 [e :U 1344 ]
-"212
-[; ;parse.c: 212:     }else if(rx_data[0] == 'I' || rx_data[0] == 'i')
+"216
+[; ;parse.c: 216:     }else if(rx_data[0] == 'I' || rx_data[0] == 'i')
 }
 [e $U 1347  ]
 [e :U 1342 ]
 [e $ ! || == -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 73 `ui == -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 105 `ui 1348  ]
-"213
-[; ;parse.c: 213:     {
+"217
+[; ;parse.c: 217:     {
 {
-"215
-[; ;parse.c: 215:         sprintf(output, "Frequency = %ld Hz", frequency);
-[e ( _sprintf (1 , (. , -> &U _output `*uc :s 13C _frequency ]
-"216
-[; ;parse.c: 216:         EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
 "219
-[; ;parse.c: 219:         sprintf(output, "Cycles = %ld", cycle);
-[e ( _sprintf (1 , (. , -> &U _output `*uc :s 14C _cycle ]
+[; ;parse.c: 219:         sprintf(output, "Frequency = %ld Hz", frequency);
+[e ( _sprintf (1 , (. , -> &U _output `*uc :s 13C _frequency ]
 "220
 [; ;parse.c: 220:         EUSART_Write_String(output);
 [e ( _EUSART_Write_String (1 -> &U _output `*uc ]
 "223
-[; ;parse.c: 223:         sprintf(output, "Break Duration = %u ms", break_duration);
-[e ( _sprintf (1 , (. , -> &U _output `*uc :s 15C _break_duration ]
+[; ;parse.c: 223:         sprintf(output, "Cycles = %ld", cycle);
+[e ( _sprintf (1 , (. , -> &U _output `*uc :s 14C _cycle ]
 "224
 [; ;parse.c: 224:         EUSART_Write_String(output);
 [e ( _EUSART_Write_String (1 -> &U _output `*uc ]
 "227
-[; ;parse.c: 227:         sprintf(output, "Number of Packages = %u", packages);
-[e ( _sprintf (1 , (. , -> &U _output `*uc :s 16C _packages ]
+[; ;parse.c: 227:         sprintf(output, "Break Duration = %u ms", break_duration);
+[e ( _sprintf (1 , (. , -> &U _output `*uc :s 15C _break_duration ]
 "228
 [; ;parse.c: 228:         EUSART_Write_String(output);
 [e ( _EUSART_Write_String (1 -> &U _output `*uc ]
-"229
-[; ;parse.c: 229:         output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"230
-[; ;parse.c: 230:         rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+"231
+[; ;parse.c: 231:         sprintf(output, "Number of Packages = %u", packages);
+[e ( _sprintf (1 , (. , -> &U _output `*uc :s 16C _packages ]
+"232
+[; ;parse.c: 232:         EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
 "233
-[; ;parse.c: 233:     }else
+[; ;parse.c: 233:         output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"234
+[; ;parse.c: 234:         rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"237
+[; ;parse.c: 237:     }else if(rx_data[0] == 'T' || rx_data[0] == 't')
 }
 [e $U 1349  ]
 [e :U 1348 ]
-"234
-[; ;parse.c: 234:     {
-{
-"236
-[; ;parse.c: 236:          sprintf(output, "Unknown Command %c", rx_data[0]);
-[e ( _sprintf (1 , (. , -> &U _output `*uc :s 17C -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `i ]
-"237
-[; ;parse.c: 237:          EUSART_Write_String(output);
-[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+[e $ ! || == -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 84 `ui == -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `ui -> 116 `ui 1350  ]
 "238
-[; ;parse.c: 238:          output[0] = '\0';
-[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
-"239
-[; ;parse.c: 239:          rx_data_end = 0;
-[e = _rx_data_end -> -> 0 `i `uc ]
+[; ;parse.c: 238:     {
+{
 "240
-[; ;parse.c: 240:         }
+[; ;parse.c: 240:         PIE3bits.RCIE = 0;
+[e = . . _PIE3bits 1 4 -> -> 0 `i `uc ]
+"241
+[; ;parse.c: 241:         PIE3bits.TXIE = 0;
+[e = . . _PIE3bits 1 3 -> -> 0 `i `uc ]
+"243
+[; ;parse.c: 243:         SPI1_Close();
+[e ( _SPI1_Close ..  ]
+"245
+[; ;parse.c: 245:         output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"246
+[; ;parse.c: 246:         rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"248
+[; ;parse.c: 248:         state = 2;
+[e = _state -> -> 2 `i `ui ]
+"250
+[; ;parse.c: 250:         temp_packages = packages;
+[e = _temp_packages _packages ]
+"251
+[; ;parse.c: 251:         temp_break_duration = break_duration;
+[e = _temp_break_duration _break_duration ]
+"253
+[; ;parse.c: 253:         TMR0_Reload();
+[e ( _TMR0_Reload ..  ]
+"255
+[; ;parse.c: 255:         TMR0_StartTimer();
+[e ( _TMR0_StartTimer ..  ]
+"258
+[; ;parse.c: 258:     }else
 }
+[e $U 1351  ]
+[e :U 1350 ]
+"259
+[; ;parse.c: 259:     {
+{
+"261
+[; ;parse.c: 261:          sprintf(output, "Unknown Command %c", rx_data[0]);
+[e ( _sprintf (1 , (. , -> &U _output `*uc :s 17C -> *U + &U _rx_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _rx_data `ui `ux `i ]
+"262
+[; ;parse.c: 262:          EUSART_Write_String(output);
+[e ( _EUSART_Write_String (1 -> &U _output `*uc ]
+"263
+[; ;parse.c: 263:          output[0] = '\0';
+[e = *U + &U _output * -> -> -> 0 `i `ui `ux -> -> # *U &U _output `ui `ux -> -> 0 `ui `uc ]
+"264
+[; ;parse.c: 264:          rx_data_end = 0;
+[e = _rx_data_end -> -> 0 `i `uc ]
+"265
+[; ;parse.c: 265:         }
+}
+[e :U 1351 ]
 [e :U 1349 ]
 [e :U 1347 ]
 [e :U 1341 ]
 [e :U 1337 ]
 [e :U 1331 ]
-"242
-[; ;parse.c: 242: }
+"267
+[; ;parse.c: 267: }
 [e :UE 1320 ]
 }
 [p f _sprintf 8914064 ]
